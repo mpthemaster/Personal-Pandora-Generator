@@ -1,0 +1,407 @@
+﻿Agility - (Tier 1)
+Characters with this skill get a +5 bonus to Strength for climbing and jumping. They also get +1 Defense due to an increased ability to dodge; this bonus is not given to a character that is Surprised or Panicked. This skill may push a character above their normal maximum of having a Base Defense of 5. In addition, a character with this skill is capable of moving their body to reduce the effectiveness of attacks made against them. This includes attacks made by zombies. If a character with this skill loses a Grapple check then every area of their body has a base Bite Resistance of 15%. This can be combined with physical armor, but only grants an additional +5% to the armor's Bite Resistance instead of the normal +15%.
+4
++5 to all Str - Climb/Jump checks.
++1 to Defense unless surprised/panicked.
++15% BR% everywhere without armor.
++5% BR% to armored areas.
+3
+Strength
+25
+Perception
+35
+Weight
+200
+1
+Defense
+1
+==================================================================================================
+Archery - (Tier 3)
+A character has had significant practice with a bow and arrow and can accurately shoot one. When using bow style weapons, a character can add half of their Perception attribute to their close damage range to a maximum total ZK% of 50%. The exception to this is compound bows which have no cap on the maximum total ZK% granted by this skill. If characters do not move, then they may add this bonus to the medium damage range as well. At long range, a hit is nearly impossible without this skill. Otherwise, the long range is reduced to having a 5% chance of causing a kill, even if it would normally be higher.
+11
++5 to Ranged Attack
+When using bow style weapons:
+ + half of Perception to close damage range
+ (Maximum increase of ZK% to 50%
+ except when using Compact Bows).
+ If the character isn't moving:
+  add the same bonus to medium damage range.
+********************************
+Long damage range is reduced to
+5% without this skill.
+********************************
+1
+Perception
+25
+1
+Ranged Attack
+5
+==================================================================================================
+Backseat Driver - (Tier 2)
+Other people can benefit from your intuitive sense of direction and from your extra set of eyes watching for hazards. When a passenger, the driver can make combined checks with you taking your full Perception value instead of half like normal combined checks. The character him or herself gains a +5 bonus to Perception for 'Per - Drive (class)' checks.
+3
++5 to Per - Drive (class) checks.
+When a passenger:
+ combined checks with the driver.
+2
+Perception
+35
+Will
+30
+0
+==================================================================================================
+Basic First Aid Training - (Tier 2)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +10 to Per - First Aid/Diagnosis checks
+ for +2 to the amount of health restored
+ during natural healing.
+ Degradation of First Aid Kits and other
+ medical supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+0
+==================================================================================================
+Basic First Aid Training - (Tier 3)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +15 to Per - First Aid/Diagnosis checks
+ for +3 to the amount of health restored
+ during natural healing.
+ Degradation of First Aid Kits and other
+ medical supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+0
+==================================================================================================
+Basic First Aid Training - (Tier 4)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +20 to Per - First Aid/Diagnosis checks
+ for +4 to the amount of health restored
+ during natural healing.
+ Degradation of First Aid Kits and other
+ medical supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+0
+==================================================================================================
+Basic First Aid Training - (Tier 5)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +25 to Per - First Aid/Diagnosis checks
+ for +5 to the amount of health restored
+ during natural healing.
+ Degradation of First Aid Kits and other
+ medical supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+0
+==================================================================================================
+Biker - (Tier 1)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+5
+When driving any "Bike" vehicle:
+ +5 to Perception.
+ "Size" of any "Bike" vehicle is reduced to 0
+ (for determing Difficulty due to navigating
+  terrain).
+1
+Perception
+30
+0
+==================================================================================================
+Biker - (Tier 2)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+5
+When driving any "Bike" vehicle:
+ +10 to Perception.
+ "Size" of any "Bike" vehicle is reduced to 0
+ (for determing Difficulty due to navigating
+  terrain).
+1
+Perception
+30
+0
+==================================================================================================
+Biker - (Tier 3)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+5
+When driving any "Bike" vehicle:
+ +15 to Perception.
+ "Size" of any "Bike" vehicle is reduced to 0
+ (for determing Difficulty due to navigating
+  terrain).
+1
+Perception
+30
+0
+==================================================================================================
+Biker - (Tier 4)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+5
+When driving any "Bike" vehicle:
+ +20 to Perception.
+ "Size" of any "Bike" vehicle is reduced to 0
+ (for determing Difficulty due to navigating
+  terrain).
+1
+Perception
+30
+0
+==================================================================================================
+Biker - (Tier 5)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+5
+When driving any "Bike" vehicle:
+ +25 to Perception.
+ "Size" of any "Bike" vehicle is reduced to 0
+ (for determing Difficulty due to navigating
+  terrain).
+1
+Perception
+30
+0
+==================================================================================================
+Bilingual - (Tier 1)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                      1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.
+2
++1 to Stronghold's Culture.
+See the description of this skill.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 2)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                      1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.                                     2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.
+3
++1 to Stronghold's Culture.
++5 to any Empathy - Diplomacy checks.
+See description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 3)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.                                                                                                                                                                           3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Empathy - Diplomacy checks.
+See description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 4)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Empathy - Diplomacy checks.
+See description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 5)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Empathy - Diplomacy checks.
+See description for more.
+1
+None
+
+0
+==================================================================================================
+Billy Goat - (Tier 1)
+Characters with this attribute lack the gag reflex or a discriminatory palette that prevents most people from eating food out of the garbage or that's spoiled or otherwise ignored or discarded under normal circumstances. A person adds +5 to any 'Per - Survival' checks. In addition, they get +5 to Strength when resisting the ill effects of food poisoning. This skill can manifest out of pure necessity. If a character survives long enough for there to be an increase in Outbreak Level, then they may take this skill for free if they have a Will of 30 or higher and naturally lack dietary specificity.
+3
++5 to Perception - Survival checks.
+When resisting food poisoning effects:
+ +5 to strength.
+2
+Strength
+20
+Will
+30
+0
+==================================================================================================
+BMX - (Tier 1)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+3
++10 to Perception - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determing the difficulty of terrain.
+1
+Perception
+20
+0
+==================================================================================================
+BMX - (Tier 2)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+3
++20 to Perception - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determing the difficulty of terrain.
+1
+Perception
+20
+0
+==================================================================================================
+BMX - (Tier 3)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+3
++30 to Perception - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determing the difficulty of terrain.
+1
+Perception
+20
+0
+==================================================================================================
+BMX - (Tier 4)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+3
++40 to Perception - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determing the difficulty of terrain.
+1
+Perception
+20
+0
+==================================================================================================
+BMX - (Tier 5)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+3
++50 to Perception - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 0 when determing the difficulty of terrain.
+1
+Perception
+20
+0
+==================================================================================================
+Bo Staff - (Tier 4)
+In the hands of a martial artist, a bo staff is able to fend off many attackers at once and they are able to maximize the effectiveness of such a simple weapon. Increase FC of any medium or long bludgeon weapon by 2 and can strike multiple targets without penalties for making multiple attacks. These weapons can also be used 'Defensively' in the hands of a person with this skill. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+6
++2 to any medium/long bludgeon weapon
+   without any penalities for making
+   multiple attacks against multiple
+   targets. These weapons can be used
+   Defensively.
++5 to Melee Attack.
+3
+Exceptions
+5
+ Martial Artist - (Tier 1)
+ Martial Artist - (Tier 2)
+ Martial Artist - (Tier 3)
+ Martial Artist - (Tier 4)
+ Martial Artist - (Tier 5)
+Strength
+35
+Perception
+35
+1
+Melee Attack
+5
+==================================================================================================
+Brawler - (Tier 3)
+Characters with this skill excel at fighting at very close quarters. They have trained as a wrestler or have frequently been in fights. Add +10 to Strength to determine the results of 'Grapple Checks'. This bonus does not increase Defense. Also, making unarmed attacks to knock a zombie prone grants characters their full bonus of +10 to Attack. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+4
++5 to Melee Attack.
++10 Strength to Grapple Checks.
+While unarmed:
+ +10 Strength to knocking a zombie prone.
+4
+Exceptions
+5
+ Martial Artist - (Tier 1)
+ Martial Artist - (Tier 2)
+ Martial Artist - (Tier 3)
+ Martial Artist - (Tier 4)
+ Martial Artist - (Tier 5)
+Strength
+30
+Perception
+20
+Will
+20
+1
+Melee Attack
+5
+==============
+Martial Artist - (Tier 3)
+Sample Description; sample description; sample description.
+0
+2
+Exceptions
+1
+Military
+None
+
+0

@@ -1,0 +1,19 @@
+﻿Child
+Children provide an interesting alternative to other character types. A child character will typically have an above average Empathy and Perception but a much lower than average Strength. For this reason, a player only has 90 Stat points to distribute to child characters and will always have Size: 0 to represent their small size and lack of ability to defend themselves against larger attackers.
+7
++10 to all Per - Hide/Sneak checks.
++10 to all Empathy checks.
+Size: 0.
+Free Security Blanket at creation.
+-2 Tiers of Skills.
+Only allows for skills with 1 Tier.
+-30 Stat Points.
+4
+Empathy
+10
+Tier
+-2
+TotalStatPoints
+-30
+Tier Limit
+1
