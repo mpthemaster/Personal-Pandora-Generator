@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PersonalPandoraGenerator));
-            this.templeteCharacterRad = new System.Windows.Forms.RadioButton();
+            this.templateCharacterRad = new System.Windows.Forms.RadioButton();
             this.yourselfCharacterRad = new System.Windows.Forms.RadioButton();
             this.zombieCharacterRad = new System.Windows.Forms.RadioButton();
             this.mainMenuStrip = new System.Windows.Forms.MenuStrip();
@@ -52,25 +52,25 @@
             this.mainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
-            // templeteCharacterRad
+            // templateCharacterRad
             // 
-            this.templeteCharacterRad.Appearance = System.Windows.Forms.Appearance.Button;
-            this.templeteCharacterRad.AutoSize = true;
-            this.templeteCharacterRad.BackColor = System.Drawing.Color.LightGray;
-            this.templeteCharacterRad.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.templeteCharacterRad.FlatAppearance.BorderSize = 5;
-            this.templeteCharacterRad.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.templeteCharacterRad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.templeteCharacterRad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.templeteCharacterRad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.templeteCharacterRad.ForeColor = System.Drawing.Color.Gray;
-            this.templeteCharacterRad.Location = new System.Drawing.Point(12, 94);
-            this.templeteCharacterRad.Name = "templeteCharacterRad";
-            this.templeteCharacterRad.Size = new System.Drawing.Size(171, 37);
-            this.templeteCharacterRad.TabIndex = 1;
-            this.templeteCharacterRad.Text = "Templete Character";
-            this.templeteCharacterRad.UseVisualStyleBackColor = false;
-            this.templeteCharacterRad.Click += new System.EventHandler(this.templeteCharacterRad_Click);
+            this.templateCharacterRad.Appearance = System.Windows.Forms.Appearance.Button;
+            this.templateCharacterRad.AutoSize = true;
+            this.templateCharacterRad.BackColor = System.Drawing.Color.LightGray;
+            this.templateCharacterRad.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.templateCharacterRad.FlatAppearance.BorderSize = 5;
+            this.templateCharacterRad.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.templateCharacterRad.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.templateCharacterRad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.templateCharacterRad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.templateCharacterRad.ForeColor = System.Drawing.Color.Gray;
+            this.templateCharacterRad.Location = new System.Drawing.Point(12, 94);
+            this.templateCharacterRad.Name = "templateCharacterRad";
+            this.templateCharacterRad.Size = new System.Drawing.Size(171, 37);
+            this.templateCharacterRad.TabIndex = 1;
+            this.templateCharacterRad.Text = "Template Character";
+            this.templateCharacterRad.UseVisualStyleBackColor = false;
+            this.templateCharacterRad.Click += new System.EventHandler(this.templeteCharacterRad_Click);
             // 
             // yourselfCharacterRad
             // 
@@ -294,7 +294,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(520, 672);
             this.Controls.Add(this.yourselfCharacterRad);
-            this.Controls.Add(this.templeteCharacterRad);
+            this.Controls.Add(this.templateCharacterRad);
             this.Controls.Add(this.zombieCharacterRad);
             this.Controls.Add(this.mainMenuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -313,7 +313,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip mainMenuStrip;
-        private System.Windows.Forms.RadioButton templeteCharacterRad;
+        private System.Windows.Forms.RadioButton templateCharacterRad;
         private System.Windows.Forms.RadioButton yourselfCharacterRad;
         private System.Windows.Forms.RadioButton zombieCharacterRad;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem1;

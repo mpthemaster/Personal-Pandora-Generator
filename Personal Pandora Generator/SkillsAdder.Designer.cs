@@ -77,6 +77,23 @@
             "BMX - (Tier 5)",
             "Bo Staff - (Tier 4)",
             "Brawler - (Tier 3)",
+            "Caged Wisdom - (Tier 1)",
+            "Calm - (Tier 1)",
+            "Chemistry - (Tier 5)",
+            "Climb - (Tier 3)",
+            "Combat Medic - (Tier 4)",
+            "Contemplative - (Tier 2)",
+            "Crushing Blow - (Tier 2)",
+            "Defend - (Tier 4)",
+            "Early Bird - (Tier 1)",
+            "Endurance - (Tier 3)",
+            "Fast Shot - (Tier 3)",
+            "Grenadier - (Tier 2)",
+            "Gunslinger - (Tier 3)",
+            "Gunsmithing - (Tier 4)",
+            "Handyman - (Tier 3)",
+            "Healer - (Tier 3)",
+            "Healthy - (Tier 3)",
             "Martial Artist - (Tier 3)"});
             this.skillsList.Location = new System.Drawing.Point(354, 47);
             this.skillsList.Name = "skillsList";

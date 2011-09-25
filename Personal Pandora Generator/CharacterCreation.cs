@@ -18,15 +18,17 @@ namespace RandChar
          * is selected.*/
         private bool empathyChanged, perceptionChanged, strengthChanged, willChanged,
             tierChanged, totalStatPointsChanged, baseDefenseLimitDisabled, tierIsLimited, 
-            skillTierLevelIsReducedByBoStaff, skillTierLevelIsReducedByBrawler;
+            skillTierLevelIsReducedByBoStaff, skillTierLevelIsReducedByBrawler, skillTierLevelIsReducedByDefend;
         private int empathyStatChange, perceptionStatChange, strengthStatChange,
             willStatChange, tierPointChange, totalStatPointsChange, tierLimit, 
-            skillTierLevelAmountReducedByBoStaff, skillTierLevelAmountReducedByBrawler;
+            skillTierLevelAmountReducedByBoStaff, skillTierLevelAmountReducedByBrawler, 
+            skillTierLevelAmountReducedByDefend, skillBonusToMeleeAttack, skillBonusToRangedAttack, 
+            skillBonusToDefense, skillBonusToHealth;
 
         //Holds the information of what a character's stats currently are (including the 
         //properties past the fields).
         public int RangedAttackStat, MeleeAttackStat, WillBonusStat, HealthStat, BiteRateStat, 
-            WeightTotal, BaseDefenseStat, TotalStatPoints = 120, TotalTierPoints = 5;
+            WeightTotal, BaseDefenseStat, TotalStatPoints = 120, TotalTierPoints = 5, GestaltStat;
         public int CUTotal { get; private set; } //CharacterCreator needs to be able to access
                                                  //this, but shouldn't be changing it since it is
                                                  //calculated here.
@@ -484,84 +486,71 @@ namespace RandChar
                              * following exceptions are met. 
                              * ***I will be able to make this less complicated if after adding the 
                              * real "Martial Artist" skill, it has no type exceptions.
-                             */ 
-                            if (exception == characterType || (skills.ContainsKey(exception.Remove(0, 1)) && (skillName == "Bo Staff - (Tier 4)" || skillName == "Brawler - (Tier 3)")) || ((skills.ContainsKey("Bo Staff - (Tier 4)") || skills.ContainsKey("Brawler - (Tier 3)")) && skillName.StartsWith("Martial Artist")))
+                             */
+                            if (exception == characterType || (skills.ContainsKey(exception.Remove(0, 1)) &&
+                                (skillName == "Bo Staff - (Tier 4)" || skillName == "Brawler - (Tier 3)" ||
+                                skillName == "Defend - (Tier 4)")) || ((skills.ContainsKey("Bo Staff - (Tier 4)") ||
+                                skills.ContainsKey("Brawler - (Tier 3)") || skills.ContainsKey("Defend - (Tier 4)"))
+                                && skillName.StartsWith("Martial Artist")))
                             {
-                                //Gets the streamreader to the right place for setSkillBonuses().
-                                if (exception == characterType)
-                                {
-                                    //Depending on whether the amountOfExceptions and 
-                                    //numberOfRequirements are odd or even, a different
-                                    //formula needs to be used.
-                                    int x;
-                                    if (amountOfExceptions % 2 == 0 && numberOfRequirements % 2 == 0) //Does nothing right now (conditions are never met so far)
-                                        x = 2;
-                                    else if (amountOfExceptions % 2 == 1 && numberOfRequirements % 2 == 0)
-                                        x = 0;
-                                    else
-                                        x = 1;
-
-                                    for (int count2 = 0; count2 < amountOfExceptions - count +
-                                        numberOfRequirements + x - 1; count2++)
-                                    {
-                                        readingSkillRequirements.ReadLine();
-                                    }
-                                }
-
                                 //Specific exception for Bo Staff - (Tier 4) & Brawler - (Tier 3).
-                                if (exception.Contains("Martial Artist") || ((skills.ContainsKey("Bo Staff - (Tier 4)") || skills.ContainsKey("Brawler - (Tier 3)")) && skillName.StartsWith("Martial Artist")))
+                                //Extracts the tier level.
+                                if (exception.Contains("Martial Artist"))
+                                    exception.CopyTo(exception.Length - 2, tierNumber, 0, 1);
+                                int tierLevelToAdd = int.Parse(tierNumber[0].ToString());
+
+                                if (skillName == "Bo Staff - (Tier 4)" || (skillName.StartsWith("Martial Artist")
+                                    && skills.ContainsKey("Bo Staff - (Tier 4)")))
                                 {
-                                    //Extracts the tier level.
-                                    if (exception.Contains("Martial Artist"))
-                                        exception.CopyTo(exception.Length - 2, tierNumber, 0, 1);
-                                    int tierLevelToAdd = int.Parse(tierNumber[0].ToString());
-
-                                    if (skillName == "Bo Staff - (Tier 4)" || (skillName.StartsWith("Martial Artist") && skills.ContainsKey("Bo Staff - (Tier 4)")))
+                                    if (tierLevelToAdd < 4)
                                     {
-                                        if (tierLevelToAdd < 4)
-                                        {
-                                            skillsAdder.TotalTierPoints += tierLevelToAdd;
-                                            skillTierLevelAmountReducedByBoStaff = tierLevelToAdd;
-                                        }
-                                        else
-                                        {
-                                            skillsAdder.TotalTierPoints += 3;
-                                            skillTierLevelAmountReducedByBoStaff = 3;
-                                        }
-                                        skillTierLevelIsReducedByBoStaff = true;
+                                        skillsAdder.TotalTierPoints += tierLevelToAdd;
+                                        skillTierLevelAmountReducedByBoStaff = tierLevelToAdd;
                                     }
-
-                                    if (skillName == "Brawler - (Tier 3)" || (skillName.StartsWith("Martial Artist") && skills.ContainsKey("Brawler - (Tier 3)")))
+                                    else
                                     {
-                                        if (tierLevelToAdd < 3)
-                                        {
-                                            skillsAdder.TotalTierPoints += tierLevelToAdd;
-                                            skillTierLevelAmountReducedByBrawler = tierLevelToAdd;
-                                        }
-                                        else
-                                        {
-                                            skillsAdder.TotalTierPoints += 2;
-                                            skillTierLevelAmountReducedByBrawler = 2;
-                                        }
-                                        skillTierLevelIsReducedByBrawler = true;
+                                        skillsAdder.TotalTierPoints += 3;
+                                        skillTierLevelAmountReducedByBoStaff = 3;
                                     }
-                                    //Gets the streamreader to the right place for setSkillBonuses(). Regardless, the Martial Artist skill must have its own requirements checked because it is a special case that impacts two other skills. *I need to edit this* after I add in the real Martial Artist skill.
-                                    if (!skillName.StartsWith("Martial Artist"))
-                                    {
-                                        int x;
-                                        if (amountOfExceptions % 2 == 0 || numberOfRequirements % 2 == 0)
-                                            x = 1;
-                                        else
-                                            x = 0;
-
-                                        for (int count2 = 0; count2 < amountOfExceptions - count +
-                                            numberOfRequirements + x; count2++)
-                                        {
-                                            readingSkillRequirements.ReadLine();
-                                        }
-                                    }
+                                    skillTierLevelIsReducedByBoStaff = true;
                                 }
-                                return true;
+
+                                if (skillName == "Brawler - (Tier 3)" || (skillName.StartsWith("Martial Artist") && skills.ContainsKey("Brawler - (Tier 3)")))
+                                {
+                                    if (tierLevelToAdd < 3)
+                                    {
+                                        skillsAdder.TotalTierPoints += tierLevelToAdd;
+                                        skillTierLevelAmountReducedByBrawler = tierLevelToAdd;
+                                    }
+                                    else
+                                    {
+                                        skillsAdder.TotalTierPoints += 2;
+                                        skillTierLevelAmountReducedByBrawler = 2;
+                                    }
+                                    skillTierLevelIsReducedByBrawler = true;
+                                }
+
+                                if (skillName == "Defend - (Tier 4)" || (skillName.StartsWith("Martial Artist")
+                                    && skills.ContainsKey("Defend - (Tier 4)")))
+                                {
+                                    if (tierLevelToAdd < 4)
+                                    {
+                                        skillsAdder.TotalTierPoints += tierLevelToAdd;
+                                        skillTierLevelAmountReducedByDefend = tierLevelToAdd;
+                                    }
+                                    else
+                                    {
+                                        skillsAdder.TotalTierPoints += 3;
+                                        skillTierLevelAmountReducedByDefend = 3;
+                                    }
+                                    skillTierLevelIsReducedByDefend = true;
+                                }
+                                //Gets the streamreader to the right place.
+                                if (!skillName.StartsWith("Martial"))
+                                {
+                                    while (readingSkillRequirements.ReadLine() != "Finished") { }
+                                    return true;
+                                }
                             }
                         }
                     }
@@ -571,6 +560,7 @@ namespace RandChar
                         return true;
                     }
                 }
+                readingSkillRequirements.ReadLine();
                 return true;
             }
             else
@@ -593,7 +583,7 @@ namespace RandChar
         private void setSkillBonuses(StreamReader readingSkillBonuses, string skillName)
         {
             int numberOfBonuses = int.Parse(readingSkillBonuses.ReadLine());
-            string[,] skillBonuses = new string[numberOfBonuses, 2];
+            string[,] skillBonuses = new string[numberOfBonuses, 3];
 
             if (!skills.ContainsKey(skillName)) //If the dictionary doesn't contain the skill 
             {                                   //already, add it and apply the bonuses
@@ -605,15 +595,46 @@ namespace RandChar
                     if (skillBonuses[i, 0] == "Defense")
                     {
                         baseDefenseLimitDisabled = true;
+                        skillBonusToDefense += int.Parse(skillBonuses[i, 1]);
                         BaseDefenseStat += int.Parse(skillBonuses[i, 1]);
                     }
                     else if (skillBonuses[i, 0] == "Ranged Attack")
                     {
+                        skillBonusToRangedAttack += int.Parse(skillBonuses[i, 1]);
                         RangedAttackStat += int.Parse(skillBonuses[i, 1]);
                     }
                     else if (skillBonuses[i, 0] == "Melee Attack")
                     {
+                        skillBonusToMeleeAttack += int.Parse(skillBonuses[i, 1]);
                         MeleeAttackStat += int.Parse(skillBonuses[i, 1]);
+                    }
+                    else if (skillBonuses[i, 0] == "Health")
+                    {
+                        skillBonusToHealth += int.Parse(skillBonuses[i, 1]);
+                        HealthStat += int.Parse(skillBonuses[i, 1]);
+                    }
+                    else if (skillBonuses[i, 0] == "Gestalt")
+                    {
+                        GestaltStat += int.Parse(skillBonuses[i, 1]);
+                    }
+                    else if (skillBonuses[i, 0] == "Dice Roll")
+                    {
+                        Random dieRoll = new Random();
+
+                        int numberOfDieRolls = int.Parse(skillBonuses[i, 1]);
+                        string statToBoost = readingSkillBonuses.ReadLine();
+                        int diesAmountOfSides = int.Parse(readingSkillBonuses.ReadLine());
+                        skillBonuses[i, 1] = statToBoost;
+
+                        for (int rollNumber = 0; rollNumber < numberOfDieRolls; rollNumber++)
+                        {
+                            skillBonuses[i, 2] += dieRoll.Next(1, diesAmountOfSides + 1);
+
+                            if (statToBoost == "Will")
+                                WillTotal += int.Parse(skillBonuses[i, 2]);
+                            else if (statToBoost == "Strength")
+                                StrengthTotal += int.Parse(skillBonuses[i, 2]);
+                        }
                     }
                 }
                 skills.Add(skillName, skillBonuses);
@@ -645,18 +666,50 @@ namespace RandChar
                     skillTierLevelIsReducedByBrawler = false;
                 }
             }
+            if (skillName == "Defend - (Tier 4)" || skillName.StartsWith("Martial Artist"))
+            {
+                if (skillTierLevelIsReducedByDefend)
+                {
+                    skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByDefend;
+                    skillTierLevelIsReducedByDefend = false;
+                }
+            }
 
-            for (int i = 0; i < skillBonuses.Length - 1; i++)
+            for (int i = 0; i <= skillBonuses.GetUpperBound(0); i++)
             {
                 if (skillBonuses[i, 0] == "Defense")
                 {
                     baseDefenseLimitDisabled = false;
+                    skillBonusToDefense -= int.Parse(skillBonuses[i, 1]);
                     BaseDefenseStat -= int.Parse(skillBonuses[i, 1]);
                 }
                 else if (skillBonuses[i, 0] == "Ranged Attack")
+                {
+                    skillBonusToRangedAttack -= int.Parse(skillBonuses[i, 1]);
                     RangedAttackStat -= int.Parse(skillBonuses[i, 1]);
+                }
                 else if (skillBonuses[i, 0] == "Melee Attack")
+                {
+                    skillBonusToMeleeAttack -= int.Parse(skillBonuses[i, 1]);
                     MeleeAttackStat -= int.Parse(skillBonuses[i, 1]);
+                }
+                else if (skillBonuses[i, 0] == "Health")
+                {
+                    skillBonusToHealth -= int.Parse(skillBonuses[i, 1]);
+                    HealthStat -= int.Parse(skillBonuses[i, 1]);
+                }
+                else if (skillBonuses[i, 0] == "Gestalt")
+                {
+                    GestaltStat -= int.Parse(skillBonuses[i, 1]);
+                }
+                else if (skillBonuses[i, 0] == "Dice Roll")
+                {
+                    if (skillBonuses[i, 1] == "Will")
+                        WillTotal -= int.Parse(skillBonuses[i, 2]);
+                    else if (skillBonuses[i, 1] == "Strength")
+                        StrengthTotal -= int.Parse(skillBonuses[i, 2]);
+                    i++;
+                }
             }
             skills.Remove(skillName);
         }
@@ -665,9 +718,9 @@ namespace RandChar
         private void autoStatCalculator()
         {
             WillBonusStat = WillTotal / 10;
-            MeleeAttackStat = StrengthTotal / 5 + PerceptionTotal / 10 + WillBonusStat;
-            RangedAttackStat = PerceptionTotal / 5 + StrengthTotal / 10 + WillBonusStat;
-            BaseDefenseStat = StrengthTotal / 5 + PerceptionTotal / 10 + WillTotal / 15;
+            MeleeAttackStat = StrengthTotal / 5 + PerceptionTotal / 10 + WillBonusStat + skillBonusToMeleeAttack;
+            RangedAttackStat = PerceptionTotal / 5 + StrengthTotal / 10 + WillBonusStat + skillBonusToRangedAttack;
+            BaseDefenseStat = StrengthTotal / 5 + PerceptionTotal / 10 + WillTotal / 15 + skillBonusToDefense;
 
             if (BaseDefenseStat > 5 && !baseDefenseLimitDisabled)
                 BaseDefenseStat = 5;
@@ -675,7 +728,7 @@ namespace RandChar
             BiteRateStat = (int)Math.Round(PerceptionTotal / 2F); //A little bit of a beneficial 
                                                                   //rounding for characters.
 
-            HealthStat = StrengthTotal + WillTotal / 5;
+            HealthStat = StrengthTotal + WillTotal / 5 + skillBonusToHealth;
         }
     }
 }

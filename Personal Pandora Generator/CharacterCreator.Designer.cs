@@ -267,6 +267,7 @@
             this.gestaltDiceTxt.TabIndex = 14;
             this.gestaltDiceTxt.Text = "0";
             this.gestaltDiceTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gestaltDiceTxt.TextChanged += new System.EventHandler(this.gestaltDiceTxt_TextChanged);
             this.gestaltDiceTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberOnly_KeyPress);
             // 
             // label9

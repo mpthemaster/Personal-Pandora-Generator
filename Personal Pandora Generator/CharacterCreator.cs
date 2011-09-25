@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.IO;
 
 namespace RandChar
 {
@@ -56,9 +49,6 @@ namespace RandChar
 
             characterCreation.TypeAndBonusLoader(typeCombo.Text, typeText, typeBonusList);
 
-            //Sets the bonuses to the textboxes.
-            bonusFromIntToTextBox();
-
             //Stops the user from changing stats after bonuses have been applied.
             if (typeCombo.SelectedIndex != 0)
             {
@@ -70,6 +60,8 @@ namespace RandChar
                 panel1.Enabled = true;
                 addRemoveSkillBtn.Enabled = false; //Stops skills from being added without a type.
             }
+            //Sets the bonuses to the textboxes.
+            bonusFromIntToTextBox();
         }
 
         //Sets the bonuses to the textboxes.
@@ -83,6 +75,7 @@ namespace RandChar
             baseDefenseTxt.Text = characterCreation.BaseDefenseStat.ToString();
             rangedAttackTxt.Text = characterCreation.RangedAttackStat.ToString();
             meleeAttackTxt.Text = characterCreation.MeleeAttackStat.ToString();
+            gestaltDiceTxt.Text = characterCreation.GestaltStat.ToString();
         }
 
         //Subtracts from the total amount of statpoints left and checks for errors.
@@ -97,7 +90,9 @@ namespace RandChar
                     int.Parse(perceptionStatTxt.Text) + int.Parse(willStatTxt.Text) +
                     int.Parse(empathyStatTxt.Text);
 
-                if (totalStatPoints - totalStatPointsUsed >= 0)
+                //Allows for bonuses to the stats from skills without creating errors.
+                if (totalStatPoints - totalStatPointsUsed >= 0 || (panel1.Enabled == false &&
+                    typeCombo.Enabled == false))
                 {
                     statPointsTxt.Text = (totalStatPoints - totalStatPointsUsed).ToString();
                     characterCreation.StrengthTotal = int.Parse(strengthStatTxt.Text);
@@ -163,6 +158,12 @@ namespace RandChar
                     skillsPickedList.Items.Clear();
                     skillsPickedList.Items.AddRange(skillsAdder.skillsAdded);
 
+                    //Stops the user from modifying stats when bonuses are applied to them.
+                    if (skillsPickedList.Items.Count > 0)
+                        typeCombo.Enabled = false;
+                    else
+                        typeCombo.Enabled = true;
+
                     //Passes the skills so that their bonuses may be applied.
                     skillNames = new string[skillsPickedList.Items.Count];
                     skillsPickedList.Items.CopyTo(skillNames, 0);
@@ -170,18 +171,14 @@ namespace RandChar
 
                     //Sets the bonuses in the textboxes.
                     bonusFromIntToTextBox();
-
-                    //Stops the user from modifying stats when bonuses are applied to them.
-                    if (skillsPickedList.Items.Count > 0)
-                    {
-                        typeCombo.Enabled = false;
-                    }
-                    else
-                        typeCombo.Enabled = true;
                 }
                 //Updates the characterCreation's dictionary when the DialogResult = Cancel.
                 else if (skillNames != null) 
                     characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
+
+                //Stops the Stat Points from being displayed as less than 0 when skills/type bonuses are added to attributes.
+                if (int.Parse(statPointsTxt.Text) < 0)
+                    statPointsTxt.Text = "0";
             }
             catch (Exception ex)
             {
@@ -223,6 +220,20 @@ namespace RandChar
                 //Stops the program from crashing due to an empty textbox.
                 TextBox textChangedTxtBx = sender as TextBox;
                 textChangedTxtBx.Text = "0";
+            }
+        }
+
+        //Tracks the amount of Gestalt Dice a player has.
+        private void gestaltDiceTxt_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                characterCreation.GestaltStat = int.Parse(gestaltDiceTxt.Text);
+            }
+            catch (FormatException)
+            {
+                gestaltDiceTxt.Text = "0";
+                gestaltDiceTxt.SelectAll();
             }
         }
     }
