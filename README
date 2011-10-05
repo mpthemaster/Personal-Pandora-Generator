@@ -3,9 +3,30 @@ Personal Pandora Generator
 An all-in-one tool for Outbreak: Undead.
 
 Features:
-*Character Creation Tool - Generate  likes/dislikes, personality  traits, and skills.
+*Character Creation Tool - Generate likes/dislikes, personality traits, and skills to make your NPCs come alive!.
 
-*Character Creation - Manually  create an Outbreak:Undead  Character Sheet.
+*Character Creation - Manually create an Outbreak: Undead Character Sheet with the ease of automaticity.
+
+Planned Features:
+*Character Creation
+ - Handicaps.
+ - SPEW-AI Test.
+ - Saving/Loading Characters.
+ - Printing character sheets.
+ - Printing "pretty" character sheets.
+ - Zombie/OBM creation.
+ - The ability to share characters through an online database.
+ - Auto-Character generation.
+ - Modify skills with Gestalt Dice.
+ - Make your own skills.
+ - Expansion skills.
+ - Filter options.
+
+ - Minor: Add to the Navigator, Stunt Driver, and Survivalist skills.
+ - Minor: Add the ability to exchange tier points for stat points.
+
+*Character Creation Tool
+ - More possibilities.
 ===================================
 Version History:
 
@@ -21,4 +42,5 @@ V0.1: 3 Categories with 100 possibilities each.
 ===================================
 Credit to Others:
 
-Graphic Design: Amy Elmen 
+Graphic Design: Amy Elmen
+Grammer Robot: foxlynam

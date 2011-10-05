@@ -3,6 +3,9 @@ using System.Windows.Forms;
 
 namespace RandChar
 {
+    /// <summary>
+    /// The form for creating template/yourself characters.
+    /// </summary>
     public partial class CharacterCreator : Form
     {
         public CharacterCreation characterCreation = new CharacterCreation();
@@ -76,6 +79,7 @@ namespace RandChar
             rangedAttackTxt.Text = characterCreation.RangedAttackStat.ToString();
             meleeAttackTxt.Text = characterCreation.MeleeAttackStat.ToString();
             gestaltDiceTxt.Text = characterCreation.GestaltStat.ToString();
+            CUTxt.Text = characterCreation.CUTotal.ToString();
         }
 
         //Subtracts from the total amount of statpoints left and checks for errors.
@@ -146,10 +150,13 @@ namespace RandChar
                 SkillsAdder skillsAdder = new SkillsAdder(skillNames, 
                     characterCreation.TotalTierPoints, characterCreation, typeCombo.Text);
 
-                //Sends the weight for the checkRequirement.
+                //Sends the weight & height for the checkRequirement.
                 characterCreation.WeightTotal = int.Parse(weightTxt.Text);
                 if (characterCreation.WeightTotal == 0)
-                    throw new Exception("Make sure you entered a weight");
+                    throw new Exception("Make sure you entered a weight!");
+                characterCreation.HeightTotal = int.Parse(heightFeetTxt.Text);
+                if (characterCreation.HeightTotal == 0)
+                    throw new Exception("Make sure you entered a height!");
 
                 if (skillsAdder.ShowDialog() == DialogResult.OK)
                 {
@@ -176,7 +183,8 @@ namespace RandChar
                 else if (skillNames != null) 
                     characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
 
-                //Stops the Stat Points from being displayed as less than 0 when skills/type bonuses are added to attributes.
+                //Stops the Stat Points from being displayed as less than 0 when skills/type bonuses are added to 
+                //attributes.
                 if (int.Parse(statPointsTxt.Text) < 0)
                     statPointsTxt.Text = "0";
             }

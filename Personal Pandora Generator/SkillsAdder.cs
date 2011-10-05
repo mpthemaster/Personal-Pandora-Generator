@@ -3,6 +3,9 @@ using System.Windows.Forms;
 
 namespace RandChar
 {
+    /// <summary>
+    /// Form for adding skills to template/yourself characters.
+    /// </summary>
     public partial class SkillsAdder : Form
     {
         CharacterCreation characterCreation;
@@ -71,11 +74,7 @@ namespace RandChar
 
             if (selectedSkill != "")
             {
-                //Extracts the tier level.
-                char[] tierNumber = new char[1];
-                selectedSkill.CopyTo(selectedSkill.Length - 2, tierNumber,
-                    0, 1);
-                int tierLevel = int.Parse(tierNumber[0].ToString());
+                int tierLevel = characterCreation.TierExtracter(selectedSkill);
 
                 //Checks that the skill's requirements are met.
                     string[] selectedSkillParam = new string[1];
@@ -113,11 +112,7 @@ namespace RandChar
 
             if (selectedSkill != "")
             {
-                //Extracts the tier level.
-                char[] tierNumber = new char[1];
-                selectedSkill.CopyTo(selectedSkill.Length - 2, tierNumber,
-                    0, 1);
-                int tierLevel = int.Parse(tierNumber[0].ToString());
+                int tierLevel = characterCreation.TierExtracter(selectedSkill);
 
                 //Removes the skill.
                 skillsPickedList.Items.Remove(selectedSkill);
@@ -151,11 +146,7 @@ namespace RandChar
                 skillsPickedList.SelectedItem = skill;
                 characterCreation.RemoveSkills(skill);
 
-                //Extracts the tier level.
-                char[] tierNumber = new char[1];
-                skill.CopyTo(skill.Length - 2, tierNumber,
-                    0, 1);
-                int tierLevel = int.Parse(tierNumber[0].ToString());
+                int tierLevel = characterCreation.TierExtracter(skill);
 
                 TotalTierPoints += tierLevel;
                 tiersTxt.Text = TotalTierPoints.ToString();
