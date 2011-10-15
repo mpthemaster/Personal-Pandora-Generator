@@ -52,17 +52,6 @@ namespace RandChar
 
             characterCreation.TypeAndBonusLoader(typeCombo.Text, typeText, typeBonusList);
 
-            //Stops the user from changing stats after bonuses have been applied.
-            if (typeCombo.SelectedIndex != 0)
-            {
-                panel1.Enabled = false;
-                addRemoveSkillBtn.Enabled = true;
-            }
-            else if (!(skillsPickedList.Items.Count > 0))
-            {
-                panel1.Enabled = true;
-                addRemoveSkillBtn.Enabled = false; //Stops skills from being added without a type.
-            }
             //Sets the bonuses to the textboxes.
             bonusFromIntToTextBox();
         }
@@ -145,53 +134,67 @@ namespace RandChar
         string[] skillNames = null; //Keeps track of the skills added.
         private void addRemoveSkillBtn_Click(object sender, EventArgs e)
         {
-            try
+            if (typeCombo.Text != "None")
             {
-                SkillsAdder skillsAdder = new SkillsAdder(skillNames, 
-                    characterCreation.TotalTierPoints, characterCreation, typeCombo.Text);
-
-                //Sends the weight & height for the checkRequirement.
-                characterCreation.WeightTotal = int.Parse(weightTxt.Text);
-                if (characterCreation.WeightTotal == 0)
-                    throw new Exception("Make sure you entered a weight!");
-                characterCreation.HeightTotal = int.Parse(heightFeetTxt.Text);
-                if (characterCreation.HeightTotal == 0)
-                    throw new Exception("Make sure you entered a height!");
-
-                if (skillsAdder.ShowDialog() == DialogResult.OK)
+                try
                 {
-                    characterCreation.TotalTierPoints = skillsAdder.TotalTierPoints;
+                    SkillsAdder skillsAdder = new SkillsAdder(skillNames,
+                        characterCreation.TotalTierPoints, characterCreation, typeCombo.Text);
 
-                    skillsPickedList.Items.Clear();
-                    skillsPickedList.Items.AddRange(skillsAdder.skillsAdded);
+                    //Sends the weight & height for the checkRequirement.
+                    characterCreation.WeightTotal = int.Parse(weightTxt.Text);
+                    characterCreation.HeightTotal = int.Parse(heightFeetTxt.Text);
 
-                    //Stops the user from modifying stats when bonuses are applied to them.
-                    if (skillsPickedList.Items.Count > 0)
-                        typeCombo.Enabled = false;
-                    else
-                        typeCombo.Enabled = true;
+                    if (characterCreation.WeightTotal == 0 && characterCreation.HeightTotal == 0)
+                        throw new Exception("Make sure you entered a weight and a height!");
+                    else if (characterCreation.HeightTotal == 0)
+                        throw new Exception("Make sure you entered a height!");
+                    else if (characterCreation.WeightTotal == 0)
+                        throw new Exception("Make sure you entered a weight!");
 
-                    //Passes the skills so that their bonuses may be applied.
-                    skillNames = new string[skillsPickedList.Items.Count];
-                    skillsPickedList.Items.CopyTo(skillNames, 0);
-                    characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
+                    if (skillsAdder.ShowDialog() == DialogResult.OK)
+                    {
+                        characterCreation.TotalTierPoints = skillsAdder.TotalTierPoints;
 
-                    //Sets the bonuses in the textboxes.
-                    bonusFromIntToTextBox();
+                        skillsPickedList.Items.Clear();
+                        skillsPickedList.Items.AddRange(skillsAdder.skillsAdded);
+
+                        //Stops the user from modifying stats when bonuses are applied to them.
+                        if (skillsPickedList.Items.Count > 0)
+                        {
+                            typeCombo.Enabled = false;
+                            panel1.Enabled = false;
+                        }
+                        else
+                        {
+                            typeCombo.Enabled = true;
+                            panel1.Enabled = true;
+                        }
+
+                        //Passes the skills so that their bonuses may be applied.
+                        skillNames = new string[skillsPickedList.Items.Count];
+                        skillsPickedList.Items.CopyTo(skillNames, 0);
+                        characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
+
+                        //Sets the bonuses in the textboxes.
+                        bonusFromIntToTextBox();
+                    }
+                    //Updates the characterCreation's dictionary when the DialogResult = Cancel.
+                    else if (skillNames != null)
+                        characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
+
+                    //Stops the Stat Points from being displayed as less than 0 when skills/type bonuses are added to 
+                    //attributes.
+                    if (int.Parse(statPointsTxt.Text) < 0)
+                        statPointsTxt.Text = "0";
                 }
-                //Updates the characterCreation's dictionary when the DialogResult = Cancel.
-                else if (skillNames != null) 
-                    characterCreation.skillBonusApplier(skillNames, typeCombo.Text, 0);
-
-                //Stops the Stat Points from being displayed as less than 0 when skills/type bonuses are added to 
-                //attributes.
-                if (int.Parse(statPointsTxt.Text) < 0)
-                    statPointsTxt.Text = "0";
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            else
+                MessageBox.Show("Make sure you selected a type first.", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         //Changes the listbox selection color to darkgreen.
@@ -228,6 +231,7 @@ namespace RandChar
                 //Stops the program from crashing due to an empty textbox.
                 TextBox textChangedTxtBx = sender as TextBox;
                 textChangedTxtBx.Text = "0";
+                textChangedTxtBx.SelectAll();
             }
         }
 

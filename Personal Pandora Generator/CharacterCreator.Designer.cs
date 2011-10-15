@@ -212,9 +212,9 @@
             this.weightTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weightTxt.ForeColor = System.Drawing.Color.YellowGreen;
             this.weightTxt.Location = new System.Drawing.Point(69, 106);
-            this.weightTxt.MaxLength = 5;
+            this.weightTxt.MaxLength = 3;
             this.weightTxt.Name = "weightTxt";
-            this.weightTxt.Size = new System.Drawing.Size(52, 29);
+            this.weightTxt.Size = new System.Drawing.Size(40, 29);
             this.weightTxt.TabIndex = 10;
             this.weightTxt.Text = "0";
             this.weightTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -495,7 +495,7 @@
             this.typeCombo.Items.AddRange(new object[] {
             "None",
             "Child",
-            "Test",
+            "Civilian",
             "Military"});
             this.typeCombo.Location = new System.Drawing.Point(99, 10);
             this.typeCombo.Name = "typeCombo";
@@ -552,7 +552,6 @@
             // 
             // addRemoveSkillBtn
             // 
-            this.addRemoveSkillBtn.Enabled = false;
             this.addRemoveSkillBtn.Location = new System.Drawing.Point(273, 375);
             this.addRemoveSkillBtn.Name = "addRemoveSkillBtn";
             this.addRemoveSkillBtn.Size = new System.Drawing.Size(90, 23);

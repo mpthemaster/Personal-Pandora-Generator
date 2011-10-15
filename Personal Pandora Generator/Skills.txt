@@ -10,7 +10,7 @@ Strength
 25
 Perception
 35
-Weight
+Weight Less Than
 200
 Finished
 1
@@ -23,7 +23,7 @@ A character has had significant practice with a bow and arrow and can accurately
 +5 to Ranged Attack
 When using bow style weapons:
  + half of Perception to close damage range
- (Maximum increase of ZK% to 50% except when
+ (Maximum increase to ZK% of 50% except when
   using Compact Bows).
  If the character isn't moving:
   add the same bonus to medium damage range.
@@ -41,10 +41,11 @@ Ranged Attack
 ==================================================================================================
 Backseat Driver - (Tier 2)
 Other people can benefit from your intuitive sense of direction and from your extra set of eyes watching for hazards. When a passenger, the driver can make combined checks with you taking your full Perception value instead of half like normal combined checks. The character him or herself gains a +5 bonus to Perception for 'Per - Drive (class)' checks.
-3
+4
 +5 to Per - Drive (class) checks.
 When a passenger:
- combined checks with the driver.
+ combined checks with the driver at the
+ full Perception value.
 2
 Perception
 35
@@ -231,7 +232,7 @@ Finished
 0
 ==================================================================================================
 Bilingual - (Tier 1)
-The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                      1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.
 2
 +1 to Stronghold's Culture.
 See the description of this skill.
@@ -241,7 +242,7 @@ None
 0
 ==================================================================================================
 Bilingual - (Tier 2)
-The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                      1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.                                     2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it. 2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.
 3
 +1 to Stronghold's Culture.
 +5 to any Emp - Diplomacy checks.
@@ -252,7 +253,7 @@ None
 0
 ==================================================================================================
 Bilingual - (Tier 3)
-The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.                                                                                                                                                                           3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
 3
 +1 to Stronghold's Culture.
 +15 to any Emp - Diplomacy checks.
@@ -263,7 +264,7 @@ None
 0
 ==================================================================================================
 Bilingual - (Tier 4)
-The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
 3
 +1 to Stronghold's Culture.
 +15 to any Emp - Diplomacy checks.
@@ -274,7 +275,7 @@ None
 0
 ==================================================================================================
 Bilingual - (Tier 5)
-The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding.                       3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
 3
 +1 to Stronghold's Culture.
 +15 to any Emp - Diplomacy checks.
@@ -362,7 +363,7 @@ Bo Staff - (Tier 4)
 In the hands of a martial artist, a bo staff is able to fend off many attackers at once and they are able to maximize the effectiveness of such a simple weapon. Increase FC of any medium or long bludgeon weapon by 2 and can strike multiple targets without penalties for making multiple attacks. These weapons can also be used 'Defensively' in the hands of a person with this skill. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
 5
 +2 FC to any medium/long bludgeon weapon
-   without any penalities for making multiple attacks
+   without any penalties for making multiple attacks
    against multiple targets. These weapons can be
    used Defensively.
 +5 to Melee Attack.
@@ -471,7 +472,7 @@ Strength
 25
 Perception
 25
-Weight
+Weight Less Than
 200
 Finished
 1
@@ -481,7 +482,7 @@ Strength
 3
 ==================================================================================================
 Combat Medic - (Tier 4)
-Someone who has extensive experience in the emergency room or as a combat medic is able to subconsciously look out for their own life while trying to save others. Characters with this skill get the bonuses a Nurse gets from using healing items (any healing items used by a Nurse that have a random number associated with how much damage they will heal will have the dice rolls altered. Treat any 1-3s rolled as normal, but treat all results 4-6 as having rolled a 6 to see how much damage is healed). They get a bonus of +10 to Will for all 'Will - Resist Panic' and 'Emp - Calm Other' checks. They can also use the benefi ts of the 'Basic First Aid Training' skill for reducing the Degredation of First Aid Kits that they use.
+Someone who has extensive experience in the emergency room or as a combat medic is able to subconsciously look out for their own life while trying to save others. Characters with this skill get the bonuses a Nurse gets from using healing items (any healing items used by a Nurse that have a random number associated with how much damage they will heal will have the dice rolls altered. Treat any 1-3s rolled as normal, but treat all results 4-6 as having rolled a 6 to see how much damage is healed). They get a bonus of +10 to Will for all 'Will - Resist Panic' and 'Emp - Calm Other' checks. They can also use the benefits of the 'Basic First Aid Training' skill for reducing the Degradation of First Aid Kits that they use.
 6
 +1d3 Will.
 +10 to Will - Resist Panic checks.
@@ -522,7 +523,8 @@ Finished
 ==================================================================================================
 Crushing Blow - (Tier 2)
 For someone who has played baseball, an understanding of the bat's "sweet spot" can lead to a better hit. In this fashion, a person who has a feel for a bludgeon's sweet spot can deliver more effective blows. If only making a single attack at close range with a Bludgeoning Weapon of any kind then you can add 15 to your Melee Attack. Also, using a bludgeoning weapon to knock a zombie prone will grant double the bonus that the bludgeoning weapon allows to Attack to see if the zombie is knocked prone. Typically this means that the bonus of +10 is increased to +20 but some bludgeons grant different bonuses that can make this higher or lower.
-7
+8
++5 to Melee Attack.
 When using a Bludgeoning weapon at close
 range:
  +15 to Melee Attack.
@@ -536,10 +538,12 @@ Strength
 Perception
 30
 Finished
-0
+1
+Melee Attack
+5
 ==================================================================================================
 Defend - (Tier 4)
-Martial artists train in the art of self defense. If a character trains in a discipline that involves blocks, holds and throws over punches and kicks, then this qualifies. A character can declare as an action that they are 'Defending', while doing so, they no longer have a natural maximum for their Defense value, even if knocked prone. It is treated as having whatever Defense they would have had if they were not restricted to 5. Note that a character may not perform any other actions while 'Defending' other than make Grapple checks and move. A character that is Panicked may not use this ability. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+Martial artists train in the art of self-defense. If a character trains in a discipline that involves blocks, holds and throws over punches and kicks, then this qualifies. A character can declare as an action that they are 'Defending', while doing so, they no longer have a natural maximum for their Defense value, even if knocked prone. It is treated as having whatever Defense they would have had if they were not restricted to 5. Note that a character may not perform any other actions while 'Defending' other than make Grapple checks and move. A character that is Panicked may not use this ability. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
 2
 +1 to Defense.
 See the description for more.
@@ -571,7 +575,7 @@ Finished
 0
 ==================================================================================================
 Endurance - (Tier 3)
-Someone who always goes for a morning or evening run or someone who participates in cross country, marathons, cross country skiing, etc will be able to maintain a high pace for a longer period of time with fewer rest stops. Characters with this skill count as having slept an extra Time if they had at least 1 Time worth of sleep or 3 Time worth of rest. This skill also adds +10 to Strength for 'Str - Endurance' checks. Also, a character can make a single Adrenaline Boost for any non-grapple Strength check for every 3 periods of Time without risking adverse effects.
+Someone who always goes for a morning or evening run or someone who participates in cross country, marathons, cross country skiing, etc. will be able to maintain a high pace for a longer period of time with fewer rest stops. Characters with this skill count as having slept an extra Time if they had at least 1 Time worth of sleep or 3 Time worth of rest. This skill also adds +10 to Strength for 'Str - Endurance' checks. Also, a character can make a single Adrenaline Boost for any non-grapple Strength check for every 3 periods of Time without risking adverse effects.
 2
 +10 to Str - Endurance checks.
 See the description for more.
@@ -580,7 +584,7 @@ Strength
 35
 Will
 35
-Weight
+Weight Less Than
 200
 Finished
 0
@@ -644,7 +648,7 @@ Ranged Attack
 5
 ==================================================================================================
 Gunsmithing - (Tier 4)
-You excel at tinkering with firearms to make them more effective. More often than not, this skill is used to make non-intrusive modifications that simply undo the government mandated restrictions that put a damper on ammo capacity or rate of fire. A character can clear jammed firearms in the field as a regular action during an encounter. They may also reduce the Degradation of gun cleaning kits by half. This skill also represents a character's ability to modify firearms to be more effective at dealing damage or improving their capacity or rate of fire; unfortunately, this makes weapons more dangerous and frequently damages the weapon. The more extensive the modification, the less stable the weapon becomes. Most of these modifications are undoing modifications to the weapons that are government mandated. Regardless of the desired modification, the modification itself is taken as an ‘Equipment Manufacture’ mission and can be one of the following: Ammo Increase: Increase the Ammo of a weapon by 20% by removing government mandated ammo plugs. This modification can be made to magazines as well as firearms themelves, provided the firearm does not hold their ammunition in magazines. No side effects. Tinker: Increase the chance of success of any Stronghold mission that involves the maintenance, repair or modification of firearms by +15%. Rapid Fire: Increase FC of a weapon by 25% rounding down. Each time the player fires more than the weapon's original FC the weapon is subject to 'Dulling'. Armor Piercing: Increase all Lethalities by 15. Weapon is subject to 'Dulling'.
+You excel at tinkering with firearms to make them more effective. More often than not, this skill is used to make non-intrusive modifications that simply undo the government mandated restrictions that put a damper on ammo capacity or rate of fire. A character can clear jammed firearms in the field as a regular action during an encounter. They may also reduce the Degradation of gun cleaning kits by half. This skill also represents a character's ability to modify firearms to be more effective at dealing damage or improving their capacity or rate of fire; unfortunately, this makes weapons more dangerous and frequently damages the weapon. The more extensive the modification, the less stable the weapon becomes. Most of these modifications are undoing modifications to the weapons that are government mandated. Regardless of the desired modification, the modification itself is taken as an ‘Equipment Manufacture’ mission and can be one of the following: Ammo Increase: Increase the Ammo of a weapon by 20% by removing government mandated ammo plugs. This modification can be made to magazines as well as firearms themselves, provided the firearm does not hold their ammunition in magazines. No side effects. Tinker: Increase the chance of success of any Stronghold mission that involves the maintenance, repair or modification of firearms by +15%. Rapid Fire: Increase FC of a weapon by 25% rounding down. Each time the player fires more than the weapon's original FC the weapon is subject to 'Dulling'. Armor Piercing: Increase all Lethalities by 15. Weapon is subject to 'Dulling'.
 5
 While in an Encounter:
  can clear jammed firearms.
@@ -658,13 +662,14 @@ Finished
 0
 ==================================================================================================
 Handyman - (Tier 3)
-A professional jack-of-all-trades, the handyman is knowledgeable about many aspects of home maintenance which are valuable when maintaining a stronghold. Characters with this skill have basic working knowledge of construction, wiring, plumbing and mechanics, and given the proper tools this character is capable of working on any of these areas. These people also have a strong working knowledge of tools and their proper use. Grant this character a +5 bonus to Perception when making any checks for upgrades to the Stronghold or item creation. Note that using Gestalt dice to increase the bonus only applies to one kind of area of knowledge (construction, wiring, plumbing, etc), not all of them.
+A professional jack-of-all-trades, the handyman is knowledgeable about many aspects of home maintenance which are valuable when maintaining a stronghold. Characters with this skill have basic working knowledge of construction, wiring, plumbing and mechanics, and given the proper tools this character is capable of working on any of these areas. These people also have a strong working knowledge of tools and their proper use. Grant this character a +5 bonus to Perception when making any checks for upgrades to the Stronghold or item creation. Note that using Gestalt dice to increase the bonus only applies to one kind of area of knowledge (construction, wiring, plumbing, etc.), not all of them.
 3
 +1 to a Stronghold's Viability.
 +5 to upgrading the Stronghold checks.
 +5 to item creation checks.
 2
 Exceptions
+2
 Construction Worker
 Mechanic
 Perception
@@ -695,7 +700,7 @@ Finished
 0
 ==================================================================================================
 Healthy - (Tier 3)
-A lot of people would call themselves healthy, but to qualify for this skill, you must eat right and must be on a strict exercise regiment. Character gets +10 Health. The character also gets 2 bonus Gestalt Dice for use in Strength skills only. Secondary: Add +1 to all natural healing rolls a character makes, so restoring 2d3 health will increase to 2d3+1 for example.
+A lot of people would call themselves healthy, but to qualify for this skill, you must eat right and must be on a strict exercise regimen. Character gets +10 Health. The character also gets 2 bonus Gestalt Dice for use in Strength skills only. Secondary: Add +1 to all natural healing rolls a character makes, so restoring 2d3 health will increase to 2d3+1 for example.
 3
 +10 to health.
 +2 Gestalt Dice for Strength skills.
@@ -713,7 +718,7 @@ Gestalt
 2
 ==================================================================================================
 Heroic - (Tier 5)
-Only the most selfless of individuals will have even a chance of qualifying for this skill. If a character has demonstrated the capacity for caring about the safety of strangers in the same way they would care for their own children then they could possibly take this skill. Increase Empathy and Will by 10 when encountering the Living who require rescue or during Rescue missions. This bonus also applies when a character with this skill is ecorting Population during ‘All-Out Defense’ missions. This bonus lasts as long as there are people under his or her protection or are in need of help.
+Only the most selfless of individuals will have even a chance of qualifying for this skill. If a character has demonstrated the capacity for caring about the safety of strangers in the same way they would care for their own children then they could possibly take this skill. Increase Empathy and Will by 10 when encountering the Living who require rescue or during Rescue missions. This bonus also applies when a character with this skill is escorting Population during ‘All-Out Defense’ missions. This bonus lasts as long as there are people under his or her protection or are in need of help.
 6
 When a Stronghold's Population increases due to
 a successful mission:
@@ -742,7 +747,7 @@ Will
 35
 Perception
 35
-Weight
+Weight Less Than
 200
 Height
 6
@@ -968,7 +973,7 @@ Ranged Attack
 5
 ==================================================================================================
 Martial Artist - (Tier 1)
-There are many styles of martial arts that one can study for self defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
 4
 When Grappling:
  weapons are always considered defensive.
@@ -989,7 +994,7 @@ Finished
 0
 ==================================================================================================
 Martial Artist - (Tier 2)
-There are many styles of martial arts that one can study for self defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
 4
 When Grappling:
  weapons are always considered defensive.
@@ -1010,7 +1015,7 @@ Finished
 0
 ==================================================================================================
 Martial Artist - (Tier 3)
-There are many styles of martial arts that one can study for self defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
 4
 When Grappling:
  weapons are always considered defensive.
@@ -1031,7 +1036,7 @@ Finished
 0
 ==================================================================================================
 Martial Artist - (Tier 4)
-There are many styles of martial arts that one can study for self defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
 4
 When Grappling:
  weapons are always considered defensive.
@@ -1052,7 +1057,7 @@ Finished
 0
 ==================================================================================================
 Martial Artist - (Tier 5)
-There are many styles of martial arts that one can study for self defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
 4
 When Grappling:
  weapons are always considered defensive.
@@ -1181,9 +1186,9 @@ Finished
 0
 ==================================================================================================
 Resourceful - (Tier 2)
-Being able to make the most use out of what is available to them, a resourceful person will use what is at their disposal to their absolute fullest potential. When rolling d6 for Degredation, characters with this skill may instead roll 2d6 and pick the more favorable result. Characters also get +1 Resource as a reward for successful missions even if the mission does not award resource upon its success.
+Being able to make the most use out of what is available to them, a resourceful person will use what is at their disposal to their absolute fullest potential. When rolling d6 for Degradation, characters with this skill may instead roll 2d6 and pick the more favorable result. Characters also get +1 Resource as a reward for successful missions even if the mission does not award resource upon its success.
 4
-When rolling for Degredation:
+When rolling for Degradation:
  roll 2d6 and take the more favorable result.
 +1 Resource for successful
    missions.
@@ -1317,7 +1322,7 @@ Perception
 35
 Will
 30
-WeightMore
+Weight More Than
 150
 Finished
 0
@@ -1449,7 +1454,7 @@ Finished
 0
 ==================================================================================================
 Survivalist - (Tier 4)
-The main feature of this skill is that rugged independence and simplicity of lifestyle are mandatory, as well as experience being away from civilization for long periods of time. The character has increased ability to survive for prolonged periods of time using basic tools. Characters with this skill will be granted a Perception bonus of +15 for 'Per - Survival (biome)' checks. Once a safe place or regular food supply is found, you do not have to roll checks to find it again unless you are sidetracked or disoriented somehow. Note that this skill only extends to a single biome, and not all 'Per - Survival' checks they make, so a character must choose a specific biome when selecting this skill. The available biomes are as follows: Temperate Forest, Tropical Rain Forest, Grassland, Desert, Chaparral, Marine, Freshwater, Tundra, Taiga, Ice, and Urban. Also, the Degradation rate of '10 Essentials' equipment is reduced by half. The Training Time and prerequistite Tier is reduced for taking additional biomes as additional Survivalist skills. This represents a character having the fundamentals of survival to a reflex level of understanding. Subsequent biomes count as 1st Tier instead of 4th Tier.
+The main feature of this skill is that rugged independence and simplicity of lifestyle are mandatory, as well as experience being away from civilization for long periods of time. The character has increased ability to survive for prolonged periods of time using basic tools. Characters with this skill will be granted a Perception bonus of +15 for 'Per - Survival (biome)' checks. Once a safe place or regular food supply is found, you do not have to roll checks to find it again unless you are sidetracked or disoriented somehow. Note that this skill only extends to a single biome, and not all 'Per - Survival' checks they make, so a character must choose a specific biome when selecting this skill. The available biomes are as follows: Temperate Forest, Tropical Rain Forest, Grassland, Desert, Chaparral, Marine, Freshwater, Tundra, Taiga, Ice, and Urban. Also, the Degradation rate of '10 Essentials' equipment is reduced by half. The Training Time and prerequisite Tier is reduced for taking additional biomes as additional Survivalist skills. This represents a character having the fundamentals of survival to a reflex level of understanding. Subsequent biomes count as 1st Tier instead of 4th Tier *** (Needs to be fully implemented) ****.
 6
 +5 to Ranged Attack.
 +5 to Melee Attack.
@@ -1491,15 +1496,15 @@ An extremely rare skill nowadays, but some people have practiced extensively wit
 When using medium/long slashing weapons:
  +10 to Melee Attack, can be used defensively,
   and -1 degree of failure to dulling checks.
- 2
- Strength
- 20
- Perception
- 30
- Finished
- 1
- Melee Attack
- 5
+2
+Strength
+20
+Perception
+30
+Finished
+1
+Melee Attack
+5
 ==================================================================================================
 Tactician - (Tier 5)
 Someone who extensively plans raids in paintball or laser tag is not a bad indicator of tactical expertise, but training with lives actually on the line, such as in the military or police, is the best kind of tactical experience. All characters in formation with this character as Point get a bonus of +15 to Ranged Attack and Will, +10 to Melee Attack and +5 to all other SPEW statistics when making other kinds of checks. If another character takes Point position in a formation, then these bonuses are not applied.If the characters have trained in a formation that conflicts with this skill's bonuses, then the trained formation takes precedence over this skill.

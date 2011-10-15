@@ -16,16 +16,11 @@ namespace RandChar
         /* Holds the information of whether or not stats have changed and how much they have 
          * changed by due to type bonuses. This allows the changes to be undone when another type
          * is selected.*/
-        private bool empathyChanged, perceptionChanged, strengthChanged, willChanged,
-            tierChanged, totalStatPointsChanged, baseDefenseLimitDisabled, tierIsLimited, 
-            skillTierLevelIsReducedByBoStaff, skillTierLevelIsReducedByBrawler, skillTierLevelIsReducedByDefend,
-            skillTierLevelIsReducedBySniperOrMarksman;
-        private int empathyStatChange, perceptionStatChange, strengthStatChange,
-            willStatChange, tierPointChange, totalStatPointsChange, tierLimit, 
-            skillTierLevelAmountReducedByBoStaff, skillTierLevelAmountReducedByBrawler, 
-            skillTierLevelAmountReducedByDefend, skillTierLevelAmountReducedBySniperOrMarksman,
-            skillBonusToMeleeAttack, skillBonusToRangedAttack, skillBonusToDefense, skillBonusToHealth, 
-            skillBonusToCU;
+        private bool baseDefenseLimitDisabled, tierIsLimited, skillTierLevelIsReducedByBoStaff, skillTierLevelIsReducedByBrawler, 
+            skillTierLevelIsReducedByDefend, skillTierLevelIsReducedBySniperOrMarksman;
+        private int tierLimit, skillTierLevelAmountReducedByBoStaff, skillTierLevelAmountReducedByBrawler, skillTierLevelAmountReducedByDefend,
+            skillTierLevelAmountReducedBySniperOrMarksman,skillBonusToMeleeAttack, skillBonusToRangedAttack, skillBonusToDefense, 
+            skillBonusToHealth, skillBonusToCU;
 
         //Holds the information of what a character's stats currently are (including the 
         //properties past the fields).
@@ -88,13 +83,13 @@ namespace RandChar
         /// <param name="typeName">The name of the picked type.</param>
         /// <param name="typeText">The RichTextBox where the type description is going to be placed</param>
         /// <param name="typeBonusList">The ListBox where the bonuses are to be listed.</param>
-        public void TypeAndBonusLoader(string typeName, RichTextBox typeText,  
-            ListBox typeBonusList)
+        public void TypeAndBonusLoader(string typeName, RichTextBox typeText, ListBox typeBonusList)
         {
             string typeInformation;
             StreamReader readingTypes = new StreamReader("../../Types.txt");
 
-            resetTypeBonuses(); //Undoes any previous type bonuses.
+            if (typeBonuses != null)
+                resetTypeBonuses(); //Undoes any previous type bonuses.
 
             do
             {
@@ -104,12 +99,18 @@ namespace RandChar
                 if (typeInformation == typeName && typeInformation.IndexOf(typeName) == 0)
                 {
                     typeText.Text = typeInformation.ToUpper();
-                    typeText.AppendText("\n\t" + readingTypes.ReadLine());
 
-                    //Formats the name of the type to be prettier.
+                    //Formats the name of the skill.
                     typeText.Select(0, typeName.Length);
                     typeText.SelectionAlignment = HorizontalAlignment.Center;
                     typeText.SelectionColor = Color.Red;
+
+                    //Resets the color and alignment to normal
+                    typeText.AppendText("\n");
+                    typeText.SelectionAlignment = HorizontalAlignment.Left;
+                    typeText.SelectionColor = Color.LimeGreen;
+
+                    typeText.AppendText("\t" + readingTypes.ReadLine());
 
                     //Loads the list of bonuses.
                     int numberOfBonuses = int.Parse(readingTypes.ReadLine());
@@ -119,7 +120,7 @@ namespace RandChar
                     {
                         typeBonusList.Items.Add(readingTypes.ReadLine());
                     }
-                    setTypeBonuses(readingTypes); //Applies the type's bonuses.
+                    setTypeBonuses(readingTypes, typeBonusList, typeName); //Applies the type's bonuses.
                 }
             } while (!readingTypes.EndOfStream && typeInformation != typeName);
 
@@ -129,111 +130,128 @@ namespace RandChar
         //Resets the bonuses given by a type when the type changes.
         private void resetTypeBonuses()
         {
-            if (empathyChanged)
+            foreach (string typeBonus in typeBonusesKeyList)
             {
-                TotalStatPoints -= empathyStatChange;
-                EmpathyTotal -= empathyStatChange;
-
-                empathyChanged = false;
-            }
-            if (perceptionChanged)
-            {
-                TotalStatPoints -= perceptionStatChange;
-                PerceptionTotal -= perceptionStatChange;
-
-                perceptionChanged = false;
-            }
-            if (strengthChanged)
-            {
-                TotalStatPoints -= strengthStatChange;
-                StrengthTotal -= strengthStatChange;
-
-                strengthChanged = false;
-            }
-            if (willChanged)
-            {
-                TotalStatPoints -= willStatChange;
-                WillTotal -= willStatChange;
-
-                willChanged = false;
-            }
-            if (tierChanged)
-            {
-                TotalTierPoints -= tierPointChange;
-                tierChanged = false;
-            }
-            if (totalStatPointsChanged)
-            {
-                TotalStatPoints -= totalStatPointsChange;
-                totalStatPointsChanged = false;
-            }
-            if (tierIsLimited)
-            {
-                tierLimit = 0;
-                tierIsLimited = false;
+                if (typeBonus == "Empathy")
+                {
+                    TotalStatPoints -= typeBonuses[typeBonus];
+                    EmpathyTotal -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "Perception")
+                {
+                    TotalStatPoints -= typeBonuses[typeBonus];
+                    PerceptionTotal -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "Strength")
+                {
+                    TotalStatPoints -= typeBonuses[typeBonus];
+                    StrengthTotal -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "Will")
+                {
+                    TotalStatPoints -= typeBonuses[typeBonus];
+                    WillTotal -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "Tier")
+                {
+                    TotalTierPoints -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "TotalStatPoints")
+                {
+                    TotalStatPoints -= typeBonuses[typeBonus];
+                }
+                else if (typeBonus == "Tier Limit")
+                {
+                    tierLimit = 0;
+                    tierIsLimited = false;
+                }
             }
         }
 
         //Applies the bonuses given by a type when the type changes.
         //A change is recorded as happening and how much it changed is also recorded.
-        private void setTypeBonuses(StreamReader readingTypes)
+        Dictionary<string, int> typeBonuses;
+        string[] typeBonusesKeyList;
+        private void setTypeBonuses(StreamReader readingTypes, ListBox typeBonusList, string typeName)
         {
             int numberOfModifications = int.Parse(readingTypes.ReadLine());
+            typeBonuses = new Dictionary<string, int>();
+            typeBonusesKeyList = new string[numberOfModifications];
 
             for (int i = 0; i < numberOfModifications; i++)
             {
                 string checkModification = readingTypes.ReadLine();
-
+                typeBonusesKeyList[i] = checkModification;
+                typeBonuses.Add(checkModification, 0);
+               
                 if (checkModification == "Empathy")
                 {
-                    empathyStatChange = int.Parse(readingTypes.ReadLine());
-                    TotalStatPoints += empathyStatChange;
-                    empathyChanged = true;
-
-                    EmpathyTotal += empathyStatChange;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalStatPoints += typeBonuses[checkModification];
+                    EmpathyTotal += typeBonuses[checkModification];
                 }
                 else if (checkModification == "Perception")
                 {
-                    perceptionStatChange = int.Parse(readingTypes.ReadLine());
-                    TotalStatPoints += perceptionStatChange;
-                    perceptionChanged = true;
-
-                    PerceptionTotal += perceptionStatChange;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalStatPoints += typeBonuses[checkModification];
+                    PerceptionTotal += typeBonuses[checkModification];
                 }
                 else if (checkModification == "Strength")
                 {
-                    strengthStatChange = int.Parse(readingTypes.ReadLine());
-                    TotalStatPoints += strengthStatChange;
-                    strengthChanged = true;
-
-                    StrengthTotal += strengthStatChange;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalStatPoints += typeBonuses[checkModification];
+                    StrengthTotal += typeBonuses[checkModification];
                 }
                 else if (checkModification == "Will")
                 {
-                    willStatChange = int.Parse(readingTypes.ReadLine());
-                    TotalStatPoints += willStatChange;
-                    willChanged = true;
-
-                    WillTotal += willStatChange;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalStatPoints += typeBonuses[checkModification];
+                    WillTotal += typeBonuses[checkModification];
                 }
                 else if (checkModification == "Tier")
                 {
-                    tierPointChange = int.Parse(readingTypes.ReadLine());
-                    TotalTierPoints += tierPointChange;
-                    tierChanged = true;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalTierPoints += typeBonuses[checkModification];
                 }
                 else if (checkModification == "TotalStatPoints")
                 {
-                    totalStatPointsChange = int.Parse(readingTypes.ReadLine());
-                    TotalStatPoints += totalStatPointsChange;
-
-                    totalStatPointsChanged = true;
+                    typeBonuses[checkModification] = int.Parse(readingTypes.ReadLine());
+                    TotalStatPoints += typeBonuses[checkModification];
                 }
                 else if (checkModification == "Tier Limit")
                 {
                     tierLimit = int.Parse(readingTypes.ReadLine());
-
                     tierIsLimited = true;
+                }
+                else if (checkModification == "SwitchTierForTraits")
+                {
+                    if (MessageBox.Show("Would you like to forgo a bonus of 1 tier for handyman type traits " + 
+                        "instead?", "Choose a Bonus!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == 
+                        DialogResult.Yes)
+                    {
+                        if (typeName == "Civilian")
+                        {
+                            TotalTierPoints -= typeBonuses["Tier"];
+                            typeBonuses.Remove("Tier");
+                            
+                            int arrayLocation = 0;
+                            foreach (string tierBonus in typeBonusesKeyList)
+                            {
+                                if (tierBonus == "Tier")
+                                    typeBonusesKeyList[arrayLocation] = null;
+
+                                arrayLocation++;
+                            }
+
+                            typeBonusList.Items.Clear();
+                            typeBonusList.Items.Add("Only allows for skills with Tier 4 and lower.");
+                            typeBonusList.Items.Add("When performing a check that relates to handyman");
+                            typeBonusList.Items.Add("work:");
+                            typeBonusList.Items.Add(" +15 to Perception.");
+                            typeBonusList.Items.Add("+25 to the success of Equipment Manufacture");
+                            typeBonusList.Items.Add("Missions.");
+                        }
+                    }
                 }
             }
         }
@@ -246,7 +264,7 @@ namespace RandChar
         public static void NumbersOnly_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (char.IsLetter(e.KeyChar) || char.IsSymbol(e.KeyChar) || char.IsWhiteSpace
-                (e.KeyChar) || char.IsPunctuation(e.KeyChar) && e.KeyChar.ToString() != ".")
+                (e.KeyChar) || char.IsPunctuation(e.KeyChar))
                 e.Handled = true;
         }
 
@@ -450,7 +468,7 @@ namespace RandChar
                             return false;
                         }
                     }
-                    else if (skillRequirement == "Weight")
+                    else if (skillRequirement == "Weight Less Than")
                     {
                         if (WeightTotal > int.Parse(readingSkillRequirements.ReadLine()))
                         {
@@ -458,7 +476,7 @@ namespace RandChar
                             return false;
                         }
                     }
-                    else if (skillRequirement == "WeightMore")
+                    else if (skillRequirement == "Weight More Than")
                     {
                         if (WeightTotal < int.Parse(readingSkillRequirements.ReadLine()))
                         {
@@ -540,8 +558,8 @@ namespace RandChar
                                     tierLevel = TierExtracter(exception);
 
                                 if ((skillName == "Bo Staff - (Tier 4)" || (skillName.StartsWith("Martial Artist")
-                                    && skills.ContainsKey("Bo Staff - (Tier 4)")))
-                                    && !skillTierLevelIsReducedByBoStaff)
+                                    && skills.ContainsKey("Bo Staff - (Tier 4)"))) && !skillTierLevelIsReducedByBoStaff && 
+                                    skillsAdder.TotalTierPoints > 0)
                                 {
                                     if (tierLevel < 4)
                                     {
@@ -557,7 +575,8 @@ namespace RandChar
                                 }
 
                                 if ((skillName == "Brawler - (Tier 3)" || (skillName.StartsWith("Martial Artist") &&
-                                    skills.ContainsKey("Brawler - (Tier 3)"))) && !skillTierLevelIsReducedByBrawler)
+                                    skills.ContainsKey("Brawler - (Tier 3)"))) && !skillTierLevelIsReducedByBrawler &&
+                                    skillsAdder.TotalTierPoints > 0)
                                 {
                                     if (tierLevel < 3)
                                     {
@@ -573,7 +592,8 @@ namespace RandChar
                                 }
 
                                 if ((skillName == "Defend - (Tier 4)" || (skillName.StartsWith("Martial Artist")
-                                    && skills.ContainsKey("Defend - (Tier 4)"))) && !skillTierLevelIsReducedByDefend)
+                                    && skills.ContainsKey("Defend - (Tier 4)"))) && !skillTierLevelIsReducedByDefend && 
+                                    skillsAdder.TotalTierPoints > 0)
                                 {
                                     if (tierLevel < 4)
                                     {
@@ -715,32 +735,22 @@ namespace RandChar
             string[,] skillBonuses = skills[skillName];
 
             //These follow if statements are for the special exceptions involving skills.
-            if (skillName == "Bo Staff - (Tier 4)" || skillName.StartsWith("Martial Artist"))
+            if ((skillName == "Bo Staff - (Tier 4)" || skillName.StartsWith("Martial Artist")) && skillTierLevelIsReducedByBoStaff)
             {
-                if (skillTierLevelIsReducedByBoStaff)
-                {
-                    skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByBoStaff;
-                    skillTierLevelIsReducedByBoStaff = false;
-                }
+                skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByBoStaff;
+                skillTierLevelIsReducedByBoStaff = false;
             }
-            else if (skillName == "Brawler - (Tier 3)" || skillName.StartsWith("Martial Artist"))
+            else if ((skillName == "Brawler - (Tier 3)" || skillName.StartsWith("Martial Artist")) && skillTierLevelIsReducedByBrawler)
             {
-                if (skillTierLevelIsReducedByBrawler)
-                {
-                    skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByBrawler;
-                    skillTierLevelIsReducedByBrawler = false;
-                }
+                skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByBrawler;
+                skillTierLevelIsReducedByBrawler = false;
             }
-            else if (skillName == "Defend - (Tier 4)" || skillName.StartsWith("Martial Artist"))
+            else if ((skillName == "Defend - (Tier 4)" || skillName.StartsWith("Martial Artist")) && skillTierLevelIsReducedByDefend)
             {
-                if (skillTierLevelIsReducedByDefend)
-                {
                     skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedByDefend;
                     skillTierLevelIsReducedByDefend = false;
-                }
             }
-            else if ((skillName == "Sniper - (Tier 5)" || skillName == "Marksman - (Tier 4)") && 
-                skillTierLevelIsReducedBySniperOrMarksman)
+            else if ((skillName == "Sniper - (Tier 5)" || skillName == "Marksman - (Tier 4)") && skillTierLevelIsReducedBySniperOrMarksman)
             {
                 skillsAdder.TotalTierPoints -= skillTierLevelAmountReducedBySniperOrMarksman;
                 skillTierLevelAmountReducedBySniperOrMarksman = 0;
