@@ -300,11 +300,11 @@ Finished
 0
 ==================================================================================================
 BMX - (Tier 1)
-Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
 3
 +10 to Per - Drive(Bicycle) checks.
 When riding a bike:
- it is Size 1 when determing the difficulty of terrain.
+ it is Size 1 when determining the difficulty of terrain.
 1
 Perception
 20
@@ -312,11 +312,11 @@ Finished
 0
 ==================================================================================================
 BMX - (Tier 2)
-Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
 3
 +20 to Per - Drive(Bicycle) checks.
 When riding a bike:
- it is Size 1 when determing the difficulty of terrain.
+ it is Size 1 when determining the difficulty of terrain.
 1
 Perception
 20
@@ -324,11 +324,11 @@ Finished
 0
 ==================================================================================================
 BMX - (Tier 3)
-Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
 3
 +30 to Per - Drive(Bicycle) checks.
 When riding a bike:
- it is Size 1 when determing the difficulty of terrain.
+ it is Size 1 when determining the difficulty of terrain.
 1
 Perception
 20
@@ -336,11 +336,11 @@ Finished
 0
 ==================================================================================================
 BMX - (Tier 4)
-Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
 3
 +40 to Per - Drive(Bicycle) checks.
 When riding a bike:
- it is Size 1 when determing the difficulty of terrain.
+ it is Size 1 when determining the difficulty of terrain.
 1
 Perception
 20
@@ -348,11 +348,11 @@ Finished
 0
 ==================================================================================================
 BMX - (Tier 5)
-Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determing difficulty for terrain.
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
 3
 +50 to Per - Drive(Bicycle) checks.
 When riding a bike:
- it is Size 0 when determing the difficulty of terrain.
+ it is Size 0 when determining the difficulty of terrain.
 1
 Perception
 20
@@ -634,7 +634,7 @@ Your style of shooting is saturation based. While this is not the best tactic fo
 If firing at one target:
  +2 to the FC of any handgun.
 If firing at multiple targets:
- No multiple target penality.
+ No multiple target penalty.
 2
 Exceptions
 2
@@ -1153,7 +1153,7 @@ Finished
 Offroad - (Tier 3)
 A person who has lots of off-road experience will develop a feel for the terrain and they are able to avoid hazards that many novice drivers might not. Vehicles driven off-road will count as having a 'Size' one less than normal when determining difficulty of required 'Per - Drive (class)' checks.
 3
-When determing difficulty of Per - Drive (class)
+When determining difficulty of Per - Drive (class)
 checks:
  -1 Size of Vehicle.
 1
@@ -1331,7 +1331,7 @@ Stealthy - (Tier 3)
 Someone who is stealthy is able to perform actions while making a minimal amount of sound and while keeping themselves relatively hidden. Zombies will count as having the 'Listen' sense of one level lower than normal. This bonus can apply to multiple characters so long as the 'Stealthy' character takes the Point position in the marching order and all other characters have Per 30 or more.
 6
 +1d3 to Perception.
-When determing Risk:
+When determining Risk:
  This character doesn't count towards the number
  of participating players.
 -1 to Zombies' Listen sense.
@@ -1507,7 +1507,7 @@ Melee Attack
 5
 ==================================================================================================
 Tactician - (Tier 5)
-Someone who extensively plans raids in paintball or laser tag is not a bad indicator of tactical expertise, but training with lives actually on the line, such as in the military or police, is the best kind of tactical experience. All characters in formation with this character as Point get a bonus of +15 to Ranged Attack and Will, +10 to Melee Attack and +5 to all other SPEW statistics when making other kinds of checks. If another character takes Point position in a formation, then these bonuses are not applied.If the characters have trained in a formation that conflicts with this skill's bonuses, then the trained formation takes precedence over this skill.
+Someone who extensively plans raids in paintball or laser tag is not a bad indicator of tactical expertise, but training with lives actually on the line, such as in the military or police, is the best kind of tactical experience. All characters in formation with this character as Point get a bonus of +15 to Ranged Attack and Will, +10 to Melee Attack and +5 to all other SPEW statistics when making other kinds of checks. If another character takes Point position in a formation, then these bonuses are not applied. If the characters have trained in a formation that conflicts with this skill's bonuses, then the trained formation takes precedence over this skill.
 8
 When training in a new formation:
  +10 to the success of the training.
