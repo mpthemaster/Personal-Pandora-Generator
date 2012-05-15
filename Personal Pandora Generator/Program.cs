@@ -15,7 +15,7 @@ namespace RandChar
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PersonalPandoraGenerator());
+            Application.Run(new FrmPersonalPandoraGenerator());
         }
     }
 }

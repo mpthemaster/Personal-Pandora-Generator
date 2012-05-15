@@ -11,7 +11,7 @@ namespace RandChar
     /// </summary>
     public class CharacterCreation
     {
-        public SkillsAdder skillsAdder;
+        public FrmSkillsAdder skillsAdder;
 
         /* Holds the information of whether or not stats have changed and how much they have 
          * changed by due to type bonuses. This allows the changes to be undone when another type
@@ -636,7 +636,7 @@ namespace RandChar
         }
 
         //Extracts the tier level from skills.
-        public int TierExtracter(string skillName)
+        public int TierExtracter(string skillName) //===============================Update. (Take two lines from other file and shove into here).
         {
             char[] tierNumber = new char[1];
             skillName.CopyTo(skillName.Length - 2, tierNumber, 0, 1);

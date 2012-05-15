@@ -80,50 +80,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutBox.cs">
+    <Compile Include="FrmAboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutBox.Designer.cs">
-      <DependentUpon>AboutBox.cs</DependentUpon>
+    <Compile Include="FrmAboutBox.Designer.cs">
+      <DependentUpon>FrmAboutBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="CharacterCreationTool.cs">
+    <Compile Include="FrmCharacterCreationTool.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CharacterCreationTool.Designer.cs">
-      <DependentUpon>CharacterCreationTool.cs</DependentUpon>
+    <Compile Include="FrmCharacterCreationTool.Designer.cs">
+      <DependentUpon>FrmCharacterCreationTool.cs</DependentUpon>
     </Compile>
-    <Compile Include="CharacterCreator.cs">
+    <Compile Include="FrmCharacterCreator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CharacterCreator.Designer.cs">
-      <DependentUpon>CharacterCreator.cs</DependentUpon>
+    <Compile Include="FrmCharacterCreator.Designer.cs">
+      <DependentUpon>FrmCharacterCreator.cs</DependentUpon>
     </Compile>
-    <Compile Include="PersonalPandoraGenerator.cs">
+    <Compile Include="FrmPersonalPandoraGenerator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PersonalPandoraGenerator.Designer.cs">
-      <DependentUpon>PersonalPandoraGenerator.cs</DependentUpon>
+    <Compile Include="FrmPersonalPandoraGenerator.Designer.cs">
+      <DependentUpon>FrmPersonalPandoraGenerator.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CharacterCreation.cs" />
-    <Compile Include="SkillsAdder.cs">
+    <Compile Include="FrmSkillsAdder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SkillsAdder.Designer.cs">
-      <DependentUpon>SkillsAdder.cs</DependentUpon>
+    <Compile Include="FrmSkillsAdder.Designer.cs">
+      <DependentUpon>FrmSkillsAdder.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AboutBox.resx">
-      <DependentUpon>AboutBox.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAboutBox.resx">
+      <DependentUpon>FrmAboutBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CharacterCreationTool.resx">
-      <DependentUpon>CharacterCreationTool.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCharacterCreationTool.resx">
+      <DependentUpon>FrmCharacterCreationTool.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CharacterCreator.resx">
-      <DependentUpon>CharacterCreator.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCharacterCreator.resx">
+      <DependentUpon>FrmCharacterCreator.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PersonalPandoraGenerator.resx">
-      <DependentUpon>PersonalPandoraGenerator.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPersonalPandoraGenerator.resx">
+      <DependentUpon>FrmPersonalPandoraGenerator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -135,8 +135,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SkillsAdder.resx">
-      <DependentUpon>SkillsAdder.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSkillsAdder.resx">
+      <DependentUpon>FrmSkillsAdder.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\app.manifest" />
