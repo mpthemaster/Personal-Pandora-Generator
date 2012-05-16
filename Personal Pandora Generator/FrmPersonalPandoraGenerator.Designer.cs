@@ -49,6 +49,7 @@
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCharacterCreationTool = new System.Windows.Forms.Button();
             this.mainMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -285,6 +286,16 @@
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // btnCharacterCreationTool
+            // 
+            this.btnCharacterCreationTool.Location = new System.Drawing.Point(351, 12);
+            this.btnCharacterCreationTool.Name = "btnCharacterCreationTool";
+            this.btnCharacterCreationTool.Size = new System.Drawing.Size(157, 23);
+            this.btnCharacterCreationTool.TabIndex = 4;
+            this.btnCharacterCreationTool.Text = "Run Character Creation Tool";
+            this.btnCharacterCreationTool.UseVisualStyleBackColor = true;
+            this.btnCharacterCreationTool.Click += new System.EventHandler(this.btnCharacterCreationTool_Click);
+            // 
             // FrmPersonalPandoraGenerator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,6 +304,7 @@
             this.BackgroundImage = global::RandChar.Properties.Resources.TitlePage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(520, 672);
+            this.Controls.Add(this.btnCharacterCreationTool);
             this.Controls.Add(this.radYourselfCharacter);
             this.Controls.Add(this.radTemplateCharacter);
             this.Controls.Add(this.radZombieCharacter);
@@ -332,5 +344,6 @@
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Button btnCharacterCreationTool;
     }
 }

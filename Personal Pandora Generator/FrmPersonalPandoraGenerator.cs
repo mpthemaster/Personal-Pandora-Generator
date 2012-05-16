@@ -83,5 +83,11 @@ namespace RandChar
             FrmCharacterCreator templeteCharacter = new FrmCharacterCreator();
             templeteCharacter.Show();
         }
+
+        private void btnCharacterCreationTool_Click(object sender, EventArgs e)
+        {
+            FrmCharacterCreationTool creationTool = new FrmCharacterCreationTool();
+            creationTool.Show();
+        }
     }
 }

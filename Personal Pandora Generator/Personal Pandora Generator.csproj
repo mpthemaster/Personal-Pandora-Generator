@@ -195,10 +195,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="likes.txt" />
+    <Content Include="mottos.txt" />
     <Content Include="person2.ico" />
     <None Include="Resources\CharacterCreater.jpg" />
     <None Include="Resources\girl.png" />
     <Content Include="Skills.txt" />
+    <Content Include="skillsTool.txt" />
+    <Content Include="traits.txt" />
     <Content Include="Types.txt" />
     <None Include="Resources\background1.jpg" />
     <None Include="Resources\TitlePage.jpg" />
