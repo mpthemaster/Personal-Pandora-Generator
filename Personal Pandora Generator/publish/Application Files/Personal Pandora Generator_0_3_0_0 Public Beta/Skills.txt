@@ -1,0 +1,1804 @@
+﻿Agility - (Tier 1)
+Characters with this skill get a +5 bonus to Strength for climbing and jumping. They also get +1 Defense due to an increased ability to dodge; this bonus is not given to a character that is Surprised or Panicked. This skill may push a character above their normal maximum of having a Base Defense of 5. In addition, a character with this skill is capable of moving their body to reduce the effectiveness of attacks made against them. This includes attacks made by zombies. If a character with this skill loses a Grapple check then every area of their body has a base Bite Resistance of 15%. This can be combined with physical armor, but only grants an additional +5% to the armor's Bite Resistance instead of the normal +15%.
+4
++5 to all Str - Climb/Jump checks.
++1 to Defense unless surprised/panicked.
++15% BR% everywhere without armor.
++5% BR% to armored areas.
+3
+Strength
+25
+Perception
+35
+Weight Less Than
+200
+Finished
+1
+Defense
+1
+==================================================================================================
+Archery - (Tier 3)
+A character has had significant practice with a bow and arrow and can accurately shoot one. When using bow style weapons, a character can add half of their Perception attribute to their close damage range to a maximum total ZK% of 50%. The exception to this is compound bows which have no cap on the maximum total ZK% granted by this skill. If characters do not move, then they may add this bonus to the medium damage range as well. At long range, a hit is nearly impossible without this skill. Otherwise, the long range is reduced to having a 5% chance of causing a kill, even if it would normally be higher.
+11
++5 to Ranged Attack
+When using bow style weapons:
+ + half of Perception to close damage range
+ (Maximum increase to ZK% of 50% except when
+  using Compact Bows).
+ If the character isn't moving:
+  add the same bonus to medium damage range.
+*********************************************************
+Long damage range is reduced to 5% without
+this skill.
+*********************************************************
+1
+Perception
+25
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Backseat Driver - (Tier 2)
+Other people can benefit from your intuitive sense of direction and from your extra set of eyes watching for hazards. When a passenger, the driver can make combined checks with you taking your full Perception value instead of half like normal combined checks. The character him or herself gains a +5 bonus to Perception for 'Per - Drive (class)' checks.
+4
++5 to Per - Drive (class) checks.
+When a passenger:
+ combined checks with the driver at the
+ full Perception value.
+2
+Perception
+35
+Will
+30
+Finished
+0
+==================================================================================================
+Basic First Aid Training - (Tier 2)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +10 to Per - First Aid/Diagnosis checks and +2
+  to the amount of health restored during natural
+  healing.
+ Degradation of First Aid Kits and other medical
+  supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+Finished
+0
+==================================================================================================
+Basic First Aid Training - (Tier 3)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +15 to Per - First Aid/Diagnosis checks and +3
+  to the amount of health restored during natural
+  healing.
+ Degradation of First Aid Kits and other medical
+  supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+Finished
+0
+==================================================================================================
+Basic First Aid Training - (Tier 4)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +20 to Per - First Aid/Diagnosis checks and +4
+  to the amount of health restored during natural
+  healing.
+ Degradation of First Aid Kits and other medical
+  supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+Finished
+0
+==================================================================================================
+Basic First Aid Training - (Tier 5)
+While this skill by no means represents comprehensive knowledge on first aid and medical treatment, it is certainly better than no training at all. With this you can use lower grade medicines and first aid supplies to their maximum potential. When using first aid, you can add +5 per Tier to a 'Per - First Aid/Diagnosis' check to add +1 per Tier to the amount of Health restored during natural healing when there are wounds treated with this skill. Also, the Degradation of First Aid kits and other medical supplies used by characters with this skill is reduced by half.
+6
+When using first aid:
+ +25 to Per - First Aid/Diagnosis checks and +5
+  to the amount of health restored during natural
+  healing.
+ Degradation of First Aid Kits and other medical
+  supplies are reduced by half.
+3
+Exceptions
+9
+Military
+Police
+Correctional Officer
+S.W.A.T.
+Firefighter
+Security Guard
+Nurse
+Doctor/Surgeon
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Will
+20
+Empathy
+30
+Finished
+0
+==================================================================================================
+Biker - (Tier 1)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+4
+When driving any "Bike" vehicle:
+ +5 to Perception.
+ The Size of any "Bike" vehicle is reduced to 0 (for
+ determining Difficulty due to navigating terrain).
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Biker - (Tier 2)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+4
+When driving any "Bike" vehicle:
+ +10 to Perception.
+ The Size of any "Bike" vehicle is reduced to 0 (for
+ determining Difficulty due to navigating terrain).
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Biker - (Tier 3)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+4
+When driving any "Bike" vehicle:
+ +15 to Perception.
+ The Size of any "Bike" vehicle is reduced to 0 (for
+ determining Difficulty due to navigating terrain).
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Biker - (Tier 4)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+4
+When driving any "Bike" vehicle:
+ +20 to Perception.
+ The Size of any "Bike" vehicle is reduced to 0 (for
+ determining Difficulty due to navigating terrain).
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Biker - (Tier 5)
+Gain a bonus of +5 to Perception per Tier when driving any 'Bike' classed vehicle. Reduce the 'Size' of any 'Bike' classed vehicle to 0 when determining the Difficulty of navigating difficult or rough terrain. Taking this skill at a higher Tier will increase the bonus to Perception for this skill by 5 for each Tier, so +5 at 1st Tier, +10 at 2nd Tier, etc.
+4
+When driving any "Bike" vehicle:
+ +25 to Perception.
+ The Size of any "Bike" vehicle is reduced to 0 (for
+ determining Difficulty due to navigating terrain).
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Bilingual - (Tier 1)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it.
+2
++1 to Stronghold's Culture.
+See the description of this skill.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 2)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 1st Tier: Basic understanding. Requires a Perception check in order to communicate, but the limited grasp on the language will be immediately apparent. The Difficulty of the check is 2, increased by a further +2 if the language is not of the same family of the primary language of the character attempting to use it. 2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks.
+3
++1 to Stronghold's Culture.
++5 to any Emp - Diplomacy checks.
+See the description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 3)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 2nd Tier: Fluency. Characters with this skill can speak and read one additional language fluently and add +5 to Empathy for any ‘Emp - Diplomacy’ checks. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Emp - Diplomacy checks.
+See the description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 4)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Emp - Diplomacy checks.
+See the description for more.
+1
+None
+
+0
+==================================================================================================
+Bilingual - (Tier 5)
+The character has the ability to speak, read and write in another language can allow more flexibility in one's ability to interact with others in their effort to survive. Learning this skill at a time other than at the character’s creation will count as taking a 2nd Tier skill, but will start at 1st Tier level of understanding. 3rd Tier + : If a character takes this Skill to the 3rd Tier and beyond for a single language, they have mastered the language and speak it with eloquence and can pick up and speak different dialects of the same language if need be. This allows a character to increase the 2nd Tier Empathy bonus to +15 if they are dealing with someone who speaks the language as their primary language.
+3
++1 to Stronghold's Culture.
++15 to any Emp - Diplomacy checks.
+See the description for more.
+1
+None
+
+0
+==================================================================================================
+Billy Goat - (Tier 1)
+Characters with this attribute lack the gag reflex or a discriminatory palette that prevents most people from eating food out of the garbage or that's spoiled or otherwise ignored or discarded under normal circumstances. A person adds +5 to any 'Per - Survival' checks. In addition, they get +5 to Strength when resisting the ill effects of food poisoning. This skill can manifest out of pure necessity. If a character survives long enough for there to be an increase in Outbreak Level, then they may take this skill for free if they have a Will of 30 or higher and naturally lack dietary specificity.
+3
++5 to Per - Survival checks.
+When resisting food poisoning effects:
+ +5 to strength.
+2
+Strength
+20
+Will
+30
+Finished
+0
+==================================================================================================
+BMX - (Tier 1)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
+3
++10 to Per - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determining the difficulty of terrain.
+1
+Perception
+20
+Finished
+0
+==================================================================================================
+BMX - (Tier 2)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
+3
++20 to Per - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determining the difficulty of terrain.
+1
+Perception
+20
+Finished
+0
+==================================================================================================
+BMX - (Tier 3)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
+3
++30 to Per - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determining the difficulty of terrain.
+1
+Perception
+20
+Finished
+0
+==================================================================================================
+BMX - (Tier 4)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
+3
++40 to Per - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 1 when determining the difficulty of terrain.
+1
+Perception
+20
+Finished
+0
+==================================================================================================
+BMX - (Tier 5)
+Characters with this skill are capable of navigating difficult terrain with a bicycle at higher speeds and with great control. A character with this skill may add +10 to all 'Per - Drive (Bicycle)' checks and can count whatever bicycle they ride as being Size 1 for the purpose of determining difficulty for terrain. A character can take this skill at a higher Tier, each Tier will increase the bonus by +10. At 5th Tier, a character can treat a bicycle as having Size: 0 for the purposes of determining difficulty for terrain.
+3
++50 to Per - Drive(Bicycle) checks.
+When riding a bike:
+ it is Size 0 when determining the difficulty of terrain.
+1
+Perception
+20
+Finished
+0
+==================================================================================================
+Bo Staff - (Tier 4)
+In the hands of a martial artist, a bo staff is able to fend off many attackers at once and they are able to maximize the effectiveness of such a simple weapon. Increase FC of any medium or long bludgeon weapon by 2 and can strike multiple targets without penalties for making multiple attacks. These weapons can also be used 'Defensively' in the hands of a person with this skill. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+5
++2 FC to any medium/long bludgeon weapon
+   without any penalties for making multiple attacks
+   against multiple targets. These weapons can be
+   used Defensively.
++5 to Melee Attack.
+3
+Exceptions
+5
+ Martial Artist - (Tier 1)
+ Martial Artist - (Tier 2)
+ Martial Artist - (Tier 3)
+ Martial Artist - (Tier 4)
+ Martial Artist - (Tier 5)
+Strength
+35
+Perception
+35
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Brawler - (Tier 3)
+Characters with this skill excel at fighting at very close quarters. They have trained as a wrestler or have frequently been in fights. Add +10 to Strength to determine the results of 'Grapple Checks'. This bonus does not increase Defense. Also, making unarmed attacks to knock a zombie prone grants characters their full bonus of +10 to Attack. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+4
++5 to Melee Attack.
++10 Strength to Grapple Checks.
+While unarmed:
+ +10 Strength to knocking a zombie prone.
+4
+Exceptions
+5
+ Martial Artist - (Tier 1)
+ Martial Artist - (Tier 2)
+ Martial Artist - (Tier 3)
+ Martial Artist - (Tier 4)
+ Martial Artist - (Tier 5)
+Strength
+30
+Perception
+20
+Will
+20
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Caged Wisdom - (Tier 1)
+One of the stranger testaments of human ingenuity is the variety of things (especially weapons) crafted with the limited resources of a prison inmate. Crafting piercing weapons uses the same Difficulty and Time to construct as if they were making the raw material into a bludgeon. They will be at one level of durability less than normal, however. They also get +5% bonus to the chance of success when constructing any equipment. *****Note: You must have been incarcerated for this skill.******
+7
+When constructing any equipment:
+ +5 to the chance of success.
+When crafting piercing weapons:
+ Use the same Difficulty and Time to construct
+ as if raw material was being made into a
+ Bludgeon. The piercing weapon will have 1 level
+ of durability less than normal.
+2
+Perception
+25
+Will
+20
+Finished
+0
+==================================================================================================
+Calm - (Tier 1)
+Someone who has the ability to take this skill can best be described as being the calm eye in the center of a hurricane. They have demonstrated remarkable ability at keeping their cool in situations of duress. Characters get a +10 bonus to Empathy for 'Emp - Calm Other, Diplomacy' checks and +10 Will for 'Will - Calm Self' checks.
+3
++1d3 Will.
++10 to Emp - Calm Other, Diplomacy checks.
++10 to Will - Calm Self checks.
+2
+Will
+35
+Empathy
+30
+Finished
+1
+Dice Roll
+1
+Will
+3
+==================================================================================================
+Chemistry - (Tier 5)
+A chemist is able to follow instructions on how to construct and use devices to distill or synthesize liquids or certain chemicals, as well as read and interpret signs of hazardous materials. A character with this skill gets +10 to their Perception when making 'Per - Search' checks for Resource to be generic resource for Stronghold upgrades or Equipment Manufacture missions. They get a +10% bonus for any Equipment manufacture that involves chemical components.
+6
++1 to a Stronghold's Science.
+When manufacturing with chemicals:
+ +10 to the check.
+When looking for generic resource for Stronghold
+upgrades or Equipment Manufacture missions:
+ +10 to Per - Search checks.
+1
+Perception
+25
+Finished
+0
+==================================================================================================
+Climb - (Tier 3)
+For those who consider rock climbing a good way to spend a weekend, this skill is likely applied to them. A character making any checks for climbing will have +5 added to any attribute used to make checks while climbing. Typically this will be Strength, Perception and certainly Will. Empathy can be occasionally boosted with this skill if a character's experience can potentially inspire confidence in others who are not as able to climb. Adding Gestalt Dice to this skill will increase the bonus to all related attributes when climbing. This is the exception to the rule that Gestalt Dice can only be added to one attribute bonus in a skill at a time.
+3
++1d3 Strength.
+When climbing:
+ +5 to any checks.
+3
+Strength
+25
+Perception
+25
+Weight Less Than
+200
+Finished
+1
+Dice Roll
+1
+Strength
+3
+==================================================================================================
+Combat Medic - (Tier 4)
+Someone who has extensive experience in the emergency room or as a combat medic is able to subconsciously look out for their own life while trying to save others. Characters with this skill get the bonuses a Nurse gets from using healing items (any healing items used by a Nurse that have a random number associated with how much damage they will heal will have the dice rolls altered. Treat any 1-3s rolled as normal, but treat all results 4-6 as having rolled a 6 to see how much damage is healed). They get a bonus of +10 to Will for all 'Will - Resist Panic' and 'Emp - Calm Other' checks. They can also use the benefits of the 'Basic First Aid Training' skill for reducing the Degradation of First Aid Kits that they use.
+6
++1d3 Will.
++10 to Will - Resist Panic checks.
++10 to Emp - Calm Other checks.
+When using First Aid:
+ Degradation of First Aid Kits and other medical
+ supplies are reduced by half.
+4
+Exceptions
+2
+Military
+Police
+Will
+25
+Perception
+20
+Empathy
+30
+Finished
+1
+Dice Roll
+1
+Will
+3
+==================================================================================================
+Contemplative - (Tier 2)
+If long hours of study are how you pass the time, then chances are you are contemplative and are able to think situations through logically and keep your emotions in check. A contemplative person will rarely act rashly. A character can 'hold' without taking a Will check, but they still cannot 'hold' if panicked.
+2
+If not panicked:
+ can Hold without a Will check.
+2
+Will
+35
+Perception
+30
+Finished
+0
+==================================================================================================
+Crushing Blow - (Tier 2)
+For someone who has played baseball, an understanding of the bat's "sweet spot" can lead to a better hit. In this fashion, a person who has a feel for a bludgeon's sweet spot can deliver more effective blows. If only making a single attack at close range with a Bludgeoning Weapon of any kind then you can add 15 to your Melee Attack. Also, using a bludgeoning weapon to knock a zombie prone will grant double the bonus that the bludgeoning weapon allows to Attack to see if the zombie is knocked prone. Typically this means that the bonus of +10 is increased to +20 but some bludgeons grant different bonuses that can make this higher or lower.
+8
++5 to Melee Attack.
+When using a Bludgeoning weapon at close
+range:
+ +15 to Melee Attack.
+When using a Bludgeoning weapon to knock a
+zombie prone:
+ double the bonus that the weapon allows to
+ Attack.
+2
+Strength
+35
+Perception
+30
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Defend - (Tier 4)
+Martial artists train in the art of self-defense. If a character trains in a discipline that involves blocks, holds and throws over punches and kicks, then this qualifies. A character can declare as an action that they are 'Defending', while doing so, they no longer have a natural maximum for their Defense value, even if knocked prone. It is treated as having whatever Defense they would have had if they were not restricted to 5. Note that a character may not perform any other actions while 'Defending' other than make Grapple checks and move. A character that is Panicked may not use this ability. A character with the ‘Martial Arts’ skill is able to reduce the prerequisite Tier requirement for this skill equal to their ‘Martial Arts’ skill Tier to a minimum of 1.
+2
++1 to Defense.
+See the description for more.
+3
+Exceptions
+5
+ Martial Artist - (Tier 1)
+ Martial Artist - (Tier 2)
+ Martial Artist - (Tier 3)
+ Martial Artist - (Tier 4)
+ Martial Artist - (Tier 5)
+Strength
+25
+Perception
+35
+Finished
+1
+Defense
+1
+==================================================================================================
+Early Bird - (Tier 1)
+While many people are early risers, some can train themselves to do this out of necessity. If you require coffee or tea in the morning to get going, then this is most certainly not you. The character is able to operate without penalty in the hours after waking and requires no caffeine to aid them in waking. They count as having slept an extra period of Time if they had at least 1 Time worth of sleep and take no penalties for starting missions at early hours. This skill can manifest out of pure necessity. If a character survives long enough for there to be an increase in Outbreak Level, then they may take this skill for free if they have a Will of 30 or higher.
+1
+See the description of this skill.
+1
+Will
+30
+Finished
+0
+==================================================================================================
+Endurance - (Tier 3)
+Someone who always goes for a morning or evening run or someone who participates in cross country, marathons, cross country skiing, etc. will be able to maintain a high pace for a longer period of time with fewer rest stops. Characters with this skill count as having slept an extra Time if they had at least 1 Time worth of sleep or 3 Time worth of rest. This skill also adds +10 to Strength for 'Str - Endurance' checks. Also, a character can make a single Adrenaline Boost for any non-grapple Strength check for every 3 periods of Time without risking adverse effects.
+2
++10 to Str - Endurance checks.
+See the description for more.
+3
+Strength
+35
+Will
+35
+Weight Less Than
+200
+Finished
+0
+==================================================================================================
+Fast Shot - (Tier 3)
+It is possible to train to prioritize targets and fire at multiple targets without losing much accuracy. This sort of training is almost exclusively reserved for police or military, as even practiced civilian marksmen rarely practice speed shooting at multiple targets to the level this skill would require. Character suffers no penalties for firing at multiple targets in a single turn provided all the targets are within a frontal 90 degree firing arc. They still take penalties for multiple shots.
+2
++5 to Ranged Attack.
+See the description for more.
+3
+Exceptions
+2
+Military
+Police
+Will
+20
+Perception
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Grenadier - (Tier 2)
+If your weapon of choice is thrown and you have experience in sports (like baseball) then you can excel at placing explosives or incendiaries with a well-aimed throw. Attacks using thrown weapons, grenades and Molotov cocktails increase their Lethality by 10 at all ranges, and Lethalities that are marked with a 0 count as 10 when thrown by a character with this skill. Lethalities marked with a (-) are unchanged, however.
+4
++5 to Ranged Attack.
++10 Lethality to all ranges for:
+ thrown weapons, grenades, and Molotov cocktails
+ (unless marked with a (-)).
+2
+Exceptions
+2
+Military
+Police
+Perception
+35
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Gunslinger - (Tier 3)
+Your style of shooting is saturation based. While this is not the best tactic for combating zombies, you seem to compensate by being able to maintain accuracy despite the volume of shots you fire. Character may increase the FC of any handgun they carry by 2 if they're firing at one target, or they can fire at multiple targets without taking penalties for firing at multiple targets. You still take penalties for firing multiple shots.
+5
++5 to Ranged Attack.
+If firing at one target:
+ +2 to the FC of any handgun.
+If firing at multiple targets:
+ No multiple target penalty.
+2
+Exceptions
+2
+Military
+Police
+Perception
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Gunsmithing - (Tier 4)
+You excel at tinkering with firearms to make them more effective. More often than not, this skill is used to make non-intrusive modifications that simply undo the government mandated restrictions that put a damper on ammo capacity or rate of fire. A character can clear jammed firearms in the field as a regular action during an encounter. They may also reduce the Degradation of gun cleaning kits by half. This skill also represents a character's ability to modify firearms to be more effective at dealing damage or improving their capacity or rate of fire; unfortunately, this makes weapons more dangerous and frequently damages the weapon. The more extensive the modification, the less stable the weapon becomes. Most of these modifications are undoing modifications to the weapons that are government mandated. Regardless of the desired modification, the modification itself is taken as an ‘Equipment Manufacture’ mission and can be one of the following: Ammo Increase: Increase the Ammo of a weapon by 20% by removing government mandated ammo plugs. This modification can be made to magazines as well as firearms themselves, provided the firearm does not hold their ammunition in magazines. No side effects. Tinker: Increase the chance of success of any Stronghold mission that involves the maintenance, repair or modification of firearms by +15%. Rapid Fire: Increase FC of a weapon by 25% rounding down. Each time the player fires more than the weapon's original FC the weapon is subject to 'Dulling'. Armor Piercing: Increase all Lethalities by 15. Weapon is subject to 'Dulling'.
+5
+While in an Encounter:
+ can clear jammed firearms.
+The Degradation of gun cleaning
+ kits is reduced by half.
+See the description for modding.
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Handyman - (Tier 3)
+A professional jack-of-all-trades, the handyman is knowledgeable about many aspects of home maintenance which are valuable when maintaining a stronghold. Characters with this skill have basic working knowledge of construction, wiring, plumbing and mechanics, and given the proper tools this character is capable of working on any of these areas. These people also have a strong working knowledge of tools and their proper use. Grant this character a +5 bonus to Perception when making any checks for upgrades to the Stronghold or item creation. Note that using Gestalt dice to increase the bonus only applies to one kind of area of knowledge (construction, wiring, plumbing, etc.), not all of them.
+3
++1 to a Stronghold's Viability.
++5 to upgrading the Stronghold checks.
++5 to item creation checks.
+2
+Exceptions
+2
+Construction Worker
+Mechanic
+Perception
+30
+Finished
+0
+==================================================================================================
+Healer - (Tier 3)
+This is not unlike Basic First Aid, but it emphasizes that medical training is a mandatory part of a profession and requires that on multiple occasions first aid training be put to use. Increase Health recovery during natural healing by 1d6. The target must not move or perform any actions. If the character with this skill has any other first aid skill then they can increase the natural healing by +2 (so 1d6 would become 1d6+2) from the existing bonus.
+5
+While natural healing:
+ +1d6 to Health recovery.
+ If combined with another
+ first aid skill:
+  +1d6+2 to Health recovery.
+3
+Exceptions
+4
+Lifeguard
+Paramedic
+Nurse
+Eagle Scout
+Will
+30
+Perception
+35
+Finished
+0
+==================================================================================================
+Healthy - (Tier 3)
+A lot of people would call themselves healthy, but to qualify for this skill, you must eat right and must be on a strict exercise regimen. Character gets +10 Health. The character also gets 2 bonus Gestalt Dice for use in Strength skills only. Secondary: Add +1 to all natural healing rolls a character makes, so restoring 2d3 health will increase to 2d3+1 for example.
+3
++10 to health.
++2 Gestalt Dice for Strength skills.
++1 to all natural healing checks (see the description).
+2
+Strength
+35
+Will
+35
+Finished
+2
+Health
+10
+Gestalt
+2
+==================================================================================================
+Heroic - (Tier 5)
+Only the most selfless of individuals will have even a chance of qualifying for this skill. If a character has demonstrated the capacity for caring about the safety of strangers in the same way they would care for their own children then they could possibly take this skill. Increase Empathy and Will by 10 when encountering the Living who require rescue or during Rescue missions. This bonus also applies when a character with this skill is escorting Population during ‘All-Out Defense’ missions. This bonus lasts as long as there are people under his or her protection or are in need of help.
+6
+When a Stronghold's Population increases due to
+a successful mission:
+ +1 to the Stronghold's Morale.
+When encountering those who require rescue:
+ +10 to Will & Empathy.
+See the description for more.
+2
+Will
+30
+Empathy
+30
+Finished
+0
+==================================================================================================
+Hide - (Tier 1)
+Characters with this skill are able to hide in tight spots and remain motionless and make very little noise. Characters with this skill get a Perception bonus of +5 for 'Per - Hide' checks. Children who take this skill instead get a bonus of +10 Perception. The bonuses also apply to Will if ever they are forced to make checks while hiding.
+5
++5 to Per - Hide checks.
+If child:
+ +10 to Per - Hide checks.
+If making checks while Hiding:
+ these bonuses apply to Will.
+4
+Will
+35
+Perception
+35
+Weight Less Than
+200
+Height
+6
+Finished
+0
+==================================================================================================
+Knife Fighter - (Tier 3)
+This is not a common skill as it is difficult to practice this skill effectively in a humane fashion. Basically, having this skill means that a person has no problem using a knife in ways that will deliver nothing short of lethal blows without hesitation. ZK% can exceed 15% when the character uses knife weapons or 30% in the case of Combat Knives or 65% in the case of a Seax. It takes an additional degree of failure for a knife or slashing weapon to be subject to 'Dulling'. Increase the Grappling Strength bonus granted by using a knife or any short piercing or slashing weapon by +5. If the weapon grants no bonus of this kind, then it now grants a bonus of +5 for Grappling.
+2
++5 to Melee Attack.
+See the description for more.
+2
+Strength
+30
+Perception
+30
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Leadership - (Tier 1)
+Whether earned by rank or by natural aptitude (generally both) a leader can inspire others to feats of bravery. When fighting in formation with this character taking point, the formation is far less likely to lose their nerve. For this reason, the first failed Willpower check to see if the formation is broken is ignored and all characters in formation will have a bonus of +10 to their Will for any subsequent checks per Tier the skill takes up. Note that if another person takes charge and plans the formation then this bonus is not used. This skill combines with the bonus added to ‘Police’ or ‘Military’ types when interacting with civilians or people of lesser rank. Tertiary: Can add +10 to their Empathy when making checks for 'Under the Lash' for mobilizing a Stronghold population as a workforce if the character with this skill is laboring as well. Gestalt Dice cannot be used to increase this skill.
+2
+1d6+2 to Will.
+See the description for more.
+4
+Exceptions
+5
+Military
+Police
+S.W.A.T.
+Firefighter
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Empathy
+35
+Perception
+25
+Will
+30
+Finished
+2
+Dice Roll
+1
+Will
+6
+Will
+2
+==================================================================================================
+Leadership - (Tier 2)
+Whether earned by rank or by natural aptitude (generally both) a leader can inspire others to feats of bravery. When fighting in formation with this character taking point, the formation is far less likely to lose their nerve. For this reason, the first failed Willpower check to see if the formation is broken is ignored and all characters in formation will have a bonus of +10 to their Will for any subsequent checks per Tier the skill takes up. Note that if another person takes charge and plans the formation then this bonus is not used. This skill combines with the bonus added to ‘Police’ or ‘Military’ types when interacting with civilians or people of lesser rank. Tertiary: Can add +10 to their Empathy when making checks for 'Under the Lash' for mobilizing a Stronghold population as a workforce if the character with this skill is laboring as well. Gestalt Dice cannot be used to increase this skill.
+2
+1d6+2 to Will.
+See the description for more.
+4
+Exceptions
+5
+Military
+Police
+S.W.A.T.
+Firefighter
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Empathy
+35
+Perception
+25
+Will
+30
+Finished
+2
+Dice Roll
+1
+Will
+6
+Will
+2
+==================================================================================================
+Leadership - (Tier 3)
+Whether earned by rank or by natural aptitude (generally both) a leader can inspire others to feats of bravery. When fighting in formation with this character taking point, the formation is far less likely to lose their nerve. For this reason, the first failed Willpower check to see if the formation is broken is ignored and all characters in formation will have a bonus of +10 to their Will for any subsequent checks per Tier the skill takes up. Note that if another person takes charge and plans the formation then this bonus is not used. This skill combines with the bonus added to ‘Police’ or ‘Military’ types when interacting with civilians or people of lesser rank. Tertiary: Can add +10 to their Empathy when making checks for 'Under the Lash' for mobilizing a Stronghold population as a workforce if the character with this skill is laboring as well. Gestalt Dice cannot be used to increase this skill.
+2
+1d6+2 to Will.
+See the description for more.
+4
+Exceptions
+5
+Military
+Police
+S.W.A.T.
+Firefighter
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Empathy
+35
+Perception
+25
+Will
+30
+Finished
+2
+Dice Roll
+1
+Will
+6
+Will
+2
+==================================================================================================
+Leadership - (Tier 4)
+Whether earned by rank or by natural aptitude (generally both) a leader can inspire others to feats of bravery. When fighting in formation with this character taking point, the formation is far less likely to lose their nerve. For this reason, the first failed Willpower check to see if the formation is broken is ignored and all characters in formation will have a bonus of +10 to their Will for any subsequent checks per Tier the skill takes up. Note that if another person takes charge and plans the formation then this bonus is not used. This skill combines with the bonus added to ‘Police’ or ‘Military’ types when interacting with civilians or people of lesser rank. Tertiary: Can add +10 to their Empathy when making checks for 'Under the Lash' for mobilizing a Stronghold population as a workforce if the character with this skill is laboring as well. Gestalt Dice cannot be used to increase this skill.
+2
+1d6+2 to Will.
+See the description for more.
+4
+Exceptions
+5
+Military
+Police
+S.W.A.T.
+Firefighter
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Empathy
+35
+Perception
+25
+Will
+30
+Finished
+2
+Dice Roll
+1
+Will
+6
+Will
+2
+==================================================================================================
+Leadership - (Tier 5)
+Whether earned by rank or by natural aptitude (generally both) a leader can inspire others to feats of bravery. When fighting in formation with this character taking point, the formation is far less likely to lose their nerve. For this reason, the first failed Willpower check to see if the formation is broken is ignored and all characters in formation will have a bonus of +10 to their Will for any subsequent checks per Tier the skill takes up. Note that if another person takes charge and plans the formation then this bonus is not used. This skill combines with the bonus added to ‘Police’ or ‘Military’ types when interacting with civilians or people of lesser rank. Tertiary: Can add +10 to their Empathy when making checks for 'Under the Lash' for mobilizing a Stronghold population as a workforce if the character with this skill is laboring as well. Gestalt Dice cannot be used to increase this skill.
+2
+1d6+2 to Will.
+See the description for more.
+4
+Exceptions
+5
+Military
+Police
+S.W.A.T.
+Firefighter
+ROTC/EMT/Volunteer Firefighters/Eagle Scout/etc.
+Empathy
+35
+Perception
+25
+Will
+30
+Finished
+2
+Dice Roll
+1
+Will
+6
+Will
+2
+==================================================================================================
+Lone Wolf - (Tier 1)
+The rugged individualist will often opt to work independently even when among others. The lone wolf is very much aware of their own ability and limitations, enough so that they often know what to do while others may be bogged down with group dynamics. A lone wolf does not get bonuses for being in any formation nor can they take the ‘Co-op (name)’ skill, but they get a +5 bonus to their Perception and Will which is increased to +10 for ‘Per - Hide, Search, Spot and Survival’ checks. While part of a marching order, they can perform any kind of action but will not get any benefit to taking any position. If the character wishes to take this as a 2nd Tier skill, then they also have the added benefit of not being counted as having participated in a mission when determining the Risk of a mission. Generating Noise and doing other Risk-increasing activities still count, however. Gestalt Dice can be used to increase this skill, but they only increase Perception or Will by d3 instead of d6. If a character ever decides to take missions by themselves, then they reduce the Perception level of zombies by 1, but they take 2 Time as opposed to 1 for ‘Per - Search’ checks.
+10
+When in a formation:
+ gains no bonuses.
+Co-op skill can't be taken.
++10 to Per - Hide checks.
++10 to Per - Search checks.
++10 to Per - Spot checks.
++10 to Per - Survival checks.
+If on a mission alone:
+ -1 Perception level of Zombies & Per - Search
+  takes 2 Time.
+1
+EmpathyLess
+20
+Finished
+0
+==================================================================================================
+Lone Wolf - (Tier 2)
+The rugged individualist will often opt to work independently even when among others. The lone wolf is very much aware of their own ability and limitations, enough so that they often know what to do while others may be bogged down with group dynamics. A lone wolf does not get bonuses for being in any formation nor can they take the ‘Co-op (name)’ skill, but they get a +5 bonus to their Perception and Will which is increased to +10 for ‘Per - Hide, Search, Spot and Survival’ checks. While part of a marching order, they can perform any kind of action but will not get any benefit to taking any position. If the character wishes to take this as a 2nd Tier skill, then they also have the added benefit of not being counted as having participated in a mission when determining the Risk of a mission. Generating Noise and doing other Risk-increasing activities still count, however. Gestalt Dice can be used to increase this skill, but they only increase Perception or Will by d3 instead of d6. If a character ever decides to take missions by themselves, then they reduce the Perception level of zombies by 1, but they take 2 Time as opposed to 1 for ‘Per - Search’ checks.
+12
+When in a formation:
+ gains no bonuses.
+Co-op skill can't be taken.
++10 to Per - Hide checks.
++10 to Per - Search checks.
++10 to Per - Spot checks.
++10 to Per - Survival checks.
+If on a mission alone:
+ -1 Perception level of Zombies & Per - Search
+  takes 2 Time.
+When on a mission:
+ don't count for Risk.
+1
+EmpathyLess
+20
+Finished
+0
+==================================================================================================
+Marksman - (Tier 4)
+The marksman is someone who spends hours upon hours on shooting ranges and who has repeatedly proved themselves in competitions. Add +10 to Ranged Attack when firing a single shot without having moved this turn. The Marksman skill can only be used with firearms. This ability can be combined with other bonuses from skills or equipment (i.e. being equipped with a scope). This can be taken with the Sniper skill without taking up an additional skill choice if you have the prerequisites for both and are not restricted by Tier. Also, a character armed with either a semi or fully-automatic pistol or rifle who does not move can fire multiple shots at a single target without penalties for making multiple shots. They don't get the +10 Ranged Attack bonus, however. The number of 'wasted' shots are also reduced by half (rounding up).
+6
++5 to Ranged Attack.
+For Firearms Only:
+ When having not moved for a turn and only firing
+ a single shot:
+  +10 to Ranged Attack.
+See the description for more.
+3
+Exceptions
+2
+Military
+Police
+Will
+30
+Perception
+35
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Martial Artist - (Tier 1)
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+4
+When Grappling:
+ weapons are always considered defensive.
++5 to unarmed melee attack.
+See the description for more.
+3
+Exceptions
+4
+Military
+Police
+S.W.A.T.
+Correctional Officer
+Strength
+30
+Perception
+30
+Finished
+0
+==================================================================================================
+Martial Artist - (Tier 2)
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+4
+When Grappling:
+ weapons are always considered defensive.
++10 to unarmed melee attack.
+See the description for more.
+3
+Exceptions
+4
+Military
+Police
+S.W.A.T.
+Correctional Officer
+Strength
+30
+Perception
+30
+Finished
+0
+==================================================================================================
+Martial Artist - (Tier 3)
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+4
+When Grappling:
+ weapons are always considered defensive.
++15 to unarmed melee attack.
+See the description for more.
+3
+Exceptions
+4
+Military
+Police
+S.W.A.T.
+Correctional Officer
+Strength
+30
+Perception
+30
+Finished
+0
+==================================================================================================
+Martial Artist - (Tier 4)
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+4
+When Grappling:
+ weapons are always considered defensive.
++20 to unarmed melee attack.
+See the description for more.
+3
+Exceptions
+4
+Military
+Police
+S.W.A.T.
+Correctional Officer
+Strength
+30
+Perception
+30
+Finished
+0
+==================================================================================================
+Martial Artist - (Tier 5)
+There are many styles of martial arts that one can study for self-defense. Each of them allows a person to defend themselves from attack. The character always counts as having used defensive weapons when Grappling. Unarmed attacks are also more effective. Each Tier will add a +5 bonus to an unarmed melee attack, this will only offset the penalty by 5 at 1st Tier and eliminate the penalty 2nd Tier. 3rd Tier onward it will begin to add bonuses. This skill is also a springboard for many combat skills by allowing reduced Tier requirements. If this benefit exists, then a skill can be taken at the lowered Tier. If a skill grants benefits based upon Tier, then the Skill will count as being taken at the lowered Tier.
+4
+When Grappling:
+ weapons are always considered defensive.
++25 to unarmed melee attack.
+See the description for more.
+3
+Exceptions
+4
+Military
+Police
+S.W.A.T.
+Correctional Officer
+Strength
+30
+Perception
+30
+Finished
+0
+==================================================================================================
+Melee Fighter - (Tier 2)
+This is someone who generally picks fights and is adept at using weapons of opportunity. Unfortunately, this is frequently coupled with a violent temper. Increase Lethalities of bludgeoning, piercing and slashing weapons by 5 when used by characters with this skill.
+2
++5 to bludgeoning weapons, piercing weapons, and
+   slashing weapons.
+2
+Strength
+35
+Perception
+20
+Finished
+0
+==================================================================================================
+Mountain Goat - (Tier 1)
+Someone who excels at feats of balance, having no fear of heights and navigating treacherous paths at high altitude can be considered a mountain goat. Increase Perception by 5 for 'Per/Str - Balance' checks. Increase Will by the same amount when making 'Will - Resist Panic' checks in high places. This can be combined with bonuses that are granted by the Climb skill.
+3
++1d3 Will.
++5 to Per/Str - Balance checks.
++5 to Will - Resist Panic checks.
+2
+Perception
+20
+Will
+20
+Finished
+1
+Dice Roll
+1
+Will
+3
+==================================================================================================
+Mule - (Tier 1)
+Characters are able to balance multiple objects without much trouble or having them get in their way. Increase maximum carrying capacity by 2 CU.
+1
++2 to CU.
+1
+Strength
+30
+Finished
+1
+CU
+2
+==================================================================================================
+Navigator - (Tier 3)
+A navigator is able to get around from place to place with relative ease due to either intuitive direction, general geographic know-how or a combinaton of the two. Increase Perception by 10 when making a 'Per-Navigation' check in a specifically named environment or region (forest, ocean, desert, urban, etc). Subsequent regions may be taken as additional skills with a reduced cost of 1 Tier if the region is similar, 2 Tiers if the regions are very different ***(NOT YET IMPLEMENTED)***.
+3
++1d3 to Perception.
++10 to Per - Navigation checks (for specifically
+   named environments).
+2
+Will
+30
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Night Owl - (Tier 1)
+Someone whose operation is best at the late hours of the evening is considered a night owl. A character with this skill can make 'Str - Endurance' checks without penalty due to darkness or night.
+3
+When making Str - Endurance checks due to
+darkness/night:
+ No penalty.
+1
+Will
+35
+Finished
+0
+==================================================================================================
+Offroad - (Tier 3)
+A person who has lots of off-road experience will develop a feel for the terrain and they are able to avoid hazards that many novice drivers might not. Vehicles driven off-road will count as having a 'Size' one less than normal when determining difficulty of required 'Per - Drive (class)' checks.
+3
+When determining difficulty of Per - Drive (class)
+checks:
+ -1 Size of Vehicle.
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Pack Rat - (Tier 1)
+This character has a collection of odd foreign candy wrappers that they've tried, spent ammo casings from their trips to the firing range and other small knick-knacks they've collected over the years. Characters can store up to 3 items with a CU of the individual items being no greater than 1 CU that do not count as taking up any space for purposes of maximum Cargo capacity. Items stored in this way cannot be immediately accessed. It is as if they were always carrying around a container that had 3 CU of storage space that cannot be accessed immediately.
+1
+See the description for more.
+1
+Perception
+30
+Finished
+0
+==================================================================================================
+Parry - (Tier 3)
+Those who take the defensive positions in sports and make tough opponents in sparring matches will know how to defend themselves appropriately. Add +3 to Defense when Grappling or in Melee Combat. Characters also have no natural maximum for Defense for attacks made against them in Melee and Grapple range.
+2
+When Grappling/in Melee Combat:
+ +3 to Defense (ignore natural maximum).
+2
+Perception
+35
+Strength
+25
+Finished
+0
+==================================================================================================
+Resourceful - (Tier 2)
+Being able to make the most use out of what is available to them, a resourceful person will use what is at their disposal to their absolute fullest potential. When rolling d6 for Degradation, characters with this skill may instead roll 2d6 and pick the more favorable result. Characters also get +1 Resource as a reward for successful missions even if the mission does not award resource upon its success.
+4
+When rolling for Degradation:
+ roll 2d6 and take the more favorable result.
++1 Resource for successful
+   missions.
+2
+Exceptions
+1
+Military
+Perception
+30
+Finished
+0
+==================================================================================================
+Search - (Tier 1)
+Those who rarely lose anything and who know how to find things in a hurry or who are trained to search as part of their profession will be able to effectively find people or objects in locations quickly. Grant a +5 bonus per Tier to Perception when making 'Per - Search' checks when searching for useful items, people or danger. A character with this skill that takes Point or Rear in a formation can also make 'Per - Search' checks.
+4
++1d3 to Perception.
++5 to Per - Search checks.
+When taking Point or Rear:
+ can make Per - Search checks.
+1
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Search - (Tier 2)
+Those who rarely lose anything and who know how to find things in a hurry or who are trained to search as part of their profession will be able to effectively find people or objects in locations quickly. Grant a +5 bonus per Tier to Perception when making 'Per - Search' checks when searching for useful items, people or danger. A character with this skill that takes Point or Rear in a formation can also make 'Per - Search' checks.
+4
++1d3 to Perception.
++10 to Per - Search checks.
+When taking Point or Rear:
+ can make Per - Search checks.
+1
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Search - (Tier 3)
+Those who rarely lose anything and who know how to find things in a hurry or who are trained to search as part of their profession will be able to effectively find people or objects in locations quickly. Grant a +5 bonus per Tier to Perception when making 'Per - Search' checks when searching for useful items, people or danger. A character with this skill that takes Point or Rear in a formation can also make 'Per - Search' checks.
+4
++1d3 to Perception.
++15 to Per - Search checks.
+When taking Point or Rear:
+ can make Per - Search checks.
+1
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Search - (Tier 4)
+Those who rarely lose anything and who know how to find things in a hurry or who are trained to search as part of their profession will be able to effectively find people or objects in locations quickly. Grant a +5 bonus per Tier to Perception when making 'Per - Search' checks when searching for useful items, people or danger. A character with this skill that takes Point or Rear in a formation can also make 'Per - Search' checks.
+4
++1d3 to Perception.
++20 to Per - Search checks.
+When taking Point or Rear:
+ can make Per - Search checks.
+1
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Search - (Tier 5)
+Those who rarely lose anything and who know how to find things in a hurry or who are trained to search as part of their profession will be able to effectively find people or objects in locations quickly. Grant a +5 bonus per Tier to Perception when making 'Per - Search' checks when searching for useful items, people or danger. A character with this skill that takes Point or Rear in a formation can also make 'Per - Search' checks.
+4
++1d3 to Perception.
++25 to Per - Search checks.
+When taking Point or Rear:
+ can make Per - Search checks.
+1
+Perception
+30
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Sniper - (Tier 5)
+A sniper is someone who excels to the highest degree at marksmanship with a rifle. The degree of training for this skill includes moving targets and extreme distance accuracy. Characters using rifle weapons firing a single shot without moving will always use a target's Grappling Defense as opposed to the Ranged Defense. Increase Ranged Attack by 10 when using rifle type weapons which can be combined with other skill and equipment bonuses. This can be taken with the Marksman skill without using up an additional skill choice if you have the prerequisites for both and are not restricted by Tier.
+4
++5 to Ranged Attack.
+When using rifle type weapons:
+ +10 to Ranged Attack.
+See the description for more.
+2
+Exceptions
+2
+Military
+Police
+Perception
+35
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Steady Shot - (Tier 3)
+If you have enough training with a gun and enough weight behind you to absorb recoil then you have the ability to place several shots accurately into one target. You do not take penalties for firing multiple shots at one target when using semi or fully automatic firearms. This cannot be used with firearms that use 'heavy' or 'massive' cartridges unless the character has a Strength of 40 or weighs over 180 pounds. Also, the number of wasted shots from firearms with 'Firing Mode - Semi Automatic' are reduced by half (rounding up).
+6
+When using firearms:
+ +5 to Ranged Attack.
+When using semi or auto
+firearms*:
+ No penalties for firing multiple shots at 1 target.
+ *See the description for more.
+4
+Exceptions
+1
+Military
+Perception
+35
+Will
+30
+Weight More Than
+150
+Finished
+0
+==================================================================================================
+Stealthy - (Tier 3)
+Someone who is stealthy is able to perform actions while making a minimal amount of sound and while keeping themselves relatively hidden. Zombies will count as having the 'Listen' sense of one level lower than normal. This bonus can apply to multiple characters so long as the 'Stealthy' character takes the Point position in the marching order and all other characters have Per 30 or more.
+6
++1d3 to Perception.
+When determining Risk:
+ This character doesn't count towards the number
+ of participating players.
+-1 to Zombies' Listen sense.
+See the description for more.
+2
+Will
+25
+Perception
+35
+Finished
+1
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Streetwise - (Tier 1)
+The streetwise character will know the complex language of the street. For some groups like gangs, this ability is vital to survival. Each Tier this skill is taken at will reduce the Difficulty of any ‘Emp - Diplomacy’ and ‘Per - Navigation’ by 1. Characters with the ‘Lone Wolf’ skill can take this skill without having the prerequisite Empathy of 35.
+2
+-1 Difficulty to Emp - Diplomacy checks.
+-1 Difficulty to Per - Navigation checks.
+4
+Exceptions
+1
+Lone Wolf
+Perception
+20
+Will
+30
+Empathy
+35
+Finished
+0
+==================================================================================================
+Streetwise - (Tier 2)
+The streetwise character will know the complex language of the street. For some groups like gangs, this ability is vital to survival. Each Tier this skill is taken at will reduce the Difficulty of any ‘Emp - Diplomacy’ and ‘Per - Navigation’ by 1. Characters with the ‘Lone Wolf’ skill can take this skill without having the prerequisite Empathy of 35.
+2
+-2 Difficulty to Emp - Diplomacy checks.
+-2 Difficulty to Per - Navigation checks.
+4
+Exceptions
+1
+Lone Wolf
+Perception
+20
+Will
+30
+Empathy
+35
+Finished
+0
+==================================================================================================
+Streetwise - (Tier 3)
+The streetwise character will know the complex language of the street. For some groups like gangs, this ability is vital to survival. Each Tier this skill is taken at will reduce the Difficulty of any ‘Emp - Diplomacy’ and ‘Per - Navigation’ by 1. Characters with the ‘Lone Wolf’ skill can take this skill without having the prerequisite Empathy of 35.
+2
+-3 Difficulty to Emp - Diplomacy checks.
+-3 Difficulty to Per - Navigation checks.
+4
+Exceptions
+1
+Lone Wolf
+Perception
+20
+Will
+30
+Empathy
+35
+Finished
+0
+==================================================================================================
+Streetwise - (Tier 4)
+The streetwise character will know the complex language of the street. For some groups like gangs, this ability is vital to survival. Each Tier this skill is taken at will reduce the Difficulty of any ‘Emp - Diplomacy’ and ‘Per - Navigation’ by 1. Characters with the ‘Lone Wolf’ skill can take this skill without having the prerequisite Empathy of 35.
+2
+-4 Difficulty to Emp - Diplomacy checks.
+-4 Difficulty to Per - Navigation checks.
+4
+Exceptions
+1
+Lone Wolf
+Perception
+20
+Will
+30
+Empathy
+35
+Finished
+0
+==================================================================================================
+Streetwise - (Tier 5)
+The streetwise character will know the complex language of the street. For some groups like gangs, this ability is vital to survival. Each Tier this skill is taken at will reduce the Difficulty of any ‘Emp - Diplomacy’ and ‘Per - Navigation’ by 1. Characters with the ‘Lone Wolf’ skill can take this skill without having the prerequisite Empathy of 35.
+2
+-5 Difficulty to Emp - Diplomacy checks.
+-5 Difficulty to Per - Navigation checks.
+4
+Exceptions
+1
+Lone Wolf
+Perception
+20
+Will
+30
+Empathy
+35
+Finished
+0
+==================================================================================================
+Stunt Driver (class) - (Tier 3)
+This skill indicates someone is intimately familiar with roads and how vehicles drive on them. If to a character, a speed limit of 65 means 80 then they may qualify. Gain a bonus of +5 to Perception for any 'Per - Drive (class)' checks that are required of the character. They can also reduce or increase the 'Size' of a vehicle they drive by 1 when determining the Difficulty of any 'Per - Drive (class)' checks that need to be made. This skill can only apply to checks made with a single class of vehicle, so this skill is actually several skills: Stunt Driver (Bike), Stunt Driver (Light Truck) etc.
+4
++5 to any Per - Drive checks.
+When determining the Difficulty of a Per - Drive
+checks:
+ -1/+1 to a vehicle's Size (whichever is better).
+2
+Perception
+35
+Will
+30
+Finished
+0
+==================================================================================================
+Survivalist - (Tier 4)
+The main feature of this skill is that rugged independence and simplicity of lifestyle are mandatory, as well as experience being away from civilization for long periods of time. The character has increased ability to survive for prolonged periods of time using basic tools. Characters with this skill will be granted a Perception bonus of +15 for 'Per - Survival (biome)' checks. Once a safe place or regular food supply is found, you do not have to roll checks to find it again unless you are sidetracked or disoriented somehow. Note that this skill only extends to a single biome, and not all 'Per - Survival' checks they make, so a character must choose a specific biome when selecting this skill. The available biomes are as follows: Temperate Forest, Tropical Rain Forest, Grassland, Desert, Chaparral, Marine, Freshwater, Tundra, Taiga, Ice, and Urban. Also, the Degradation rate of '10 Essentials' equipment is reduced by half. The Training Time and prerequisite Tier is reduced for taking additional biomes as additional Survivalist skills. This represents a character having the fundamentals of survival to a reflex level of understanding. Subsequent biomes count as 1st Tier instead of 4th Tier *** (Needs to be fully implemented) ****.
+6
++5 to Ranged Attack.
++5 to Melee Attack.
++1 to a Stronghold's Science.
++1 to a Stronghold's Viability.
++15 to Per - Survival checks.
+See the description for more.
+2
+Will
+35
+Perception
+35
+Finished
+2
+Ranged Attack
+5
+Melee Attack
+5
+==================================================================================================
+Switch Hitter - (Tier 2)
+A switch hitter is a baseball player who is able to hit on either side of the plate. This kind of dexterity serves a player well against zombies as they are able to make use of weapons regardless of the stance they are in. They can even make use of cumbersome or complex weapons to their maximum efficiency. If a character can make multiple attacks with a complex weapon where one of the weapon's types is bludgeon (i.e. bludgeon/piercing, bludgeon/slashing), a character can make one of the attacks with the bludgeon and another attack with the other type without penalty. This is only allowed if the FC of the weapon allows for multiple attacks within the same turn.
+2
++5 to Melee Attack.
+See the description for more.
+2
+Perception
+30
+Strength
+30
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Swordsman - (Tier 4)
+An extremely rare skill nowadays, but some people have practiced extensively with swords and other bladed weapons. Knowledge of proper maintenance is also a requirement for this skill. Add +10 to Melee Attack for attacks using medium and long slashing weapons, in addition, these weapons can be used 'defensively'. You may discount up to 1 degree of failure when determining damage to the weapon due to 'dulling'.
+4
++5 to Melee Attack.
+When using medium/long slashing weapons:
+ +10 to Melee Attack, can be used defensively,
+  and -1 degree of failure to dulling checks.
+2
+Strength
+20
+Perception
+30
+Finished
+1
+Melee Attack
+5
+==================================================================================================
+Tactician - (Tier 5)
+Someone who extensively plans raids in paintball or laser tag is not a bad indicator of tactical expertise, but training with lives actually on the line, such as in the military or police, is the best kind of tactical experience. All characters in formation with this character as Point get a bonus of +15 to Ranged Attack and Will, +10 to Melee Attack and +5 to all other SPEW statistics when making other kinds of checks. If another character takes Point position in a formation, then these bonuses are not applied. If the characters have trained in a formation that conflicts with this skill's bonuses, then the trained formation takes precedence over this skill.
+8
+When training in a new formation:
+ +10 to the success of the training.
+When in formation as point, other characters
+receive:
+ +15 to Ranged Attack.
+ +15 to Will.
+ +10 to Melee Attack.
+ +5 to all other attributes.
+2
+Will
+30
+Empathy
+30
+Finished
+0
+==================================================================================================
+Tough - (Tier 1)
+A tough person is someone who has participated freely in contact sports, knows how to take a punch, has a job as a bouncer, in construction, logging, commercial fishing, mining or some similar profession that is inherently dangerous. The character has a natural Defense of up to 7 instead of 5 and all 'Will - Resist Pain' checks are reduced in Difficulty by 2.
+3
++5 to Health.
++2 to the natural defense limit.
+-2 Difficulty to Will - Resist Pain checks.
+2
+Strength
+30
+Will
+35
+Finished
+2
+Health
+5
+Defense
+0
+==================================================================================================
+Traceur/Traceuse - (Tier 1)
+A practitioner of parkour, a traceur approaches all hazards and environments as obstacle courses; being able to deftly navigate hazardous terrain with astounding leaps and acrobatics, even going as far as to jump from rooftop to rooftop. A traceur can add +5 per Tier when making checks for 'Str - Climb, Lift/Pull, and Jump' as well as any 'Will - Resist Panic' checks for height.
+7
++1d3 to Strength.
++1d3 to Perception.
++5 to Str - Climb checks.
++5 to Str - Lift/Pull checks.
++5 to Str - Jump checks.
+When dealing with heights:
+ +5 to Will - Resist Panic checks.
+2
+Strength
+25
+Perception
+30
+Finished
+2
+Dice Roll
+1
+Strength
+3
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Traceur/Traceuse - (Tier 2)
+A practitioner of parkour, a traceur approaches all hazards and environments as obstacle courses; being able to deftly navigate hazardous terrain with astounding leaps and acrobatics, even going as far as to jump from rooftop to rooftop. A traceur can add +5 per Tier when making checks for 'Str - Climb, Lift/Pull, and Jump' as well as any 'Will - Resist Panic' checks for height.
+7
++1d3 to Strength.
++1d3 to Perception.
++10 to Str - Climb checks.
++10 to Str - Lift/Pull checks.
++10 to Str - Jump checks.
+When dealing with heights:
+ +10 to Will - Resist Panic checks.
+2
+Strength
+25
+Perception
+30
+Finished
+2
+Dice Roll
+1
+Strength
+3
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Traceur/Traceuse - (Tier 3)
+A practitioner of parkour, a traceur approaches all hazards and environments as obstacle courses; being able to deftly navigate hazardous terrain with astounding leaps and acrobatics, even going as far as to jump from rooftop to rooftop. A traceur can add +5 per Tier when making checks for 'Str - Climb, Lift/Pull, and Jump' as well as any 'Will - Resist Panic' checks for height. 3rd Tier: At this Tier, the traceur may extend the bonus from this skill to 'Per - Navigation' checks.
+8
++1d3 to Strength.
++1d3 to Perception.
++15 to Str - Climb checks.
++15 to Str - Lift/Pull checks.
++15 to Str - Jump checks.
++15 to Per - Navigation checks.
+When dealing with heights:
+ +15 to Will - Resist Panic checks.
+2
+Strength
+25
+Perception
+30
+Finished
+2
+Dice Roll
+1
+Strength
+3
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Traceur/Traceuse - (Tier 4)
+A practitioner of parkour, a traceur approaches all hazards and environments as obstacle courses; being able to deftly navigate hazardous terrain with astounding leaps and acrobatics, even going as far as to jump from rooftop to rooftop. A traceur can add +5 per Tier when making checks for 'Str - Climb, Lift/Pull, and Jump' as well as any 'Will - Resist Panic' checks for height. 4th Tier: At this Tier, the traceur may extend the bonus to 'Str - Endurance' checks.
+9
++1d3 to Strength.
++1d3 to Perception.
++20 to Str - Climb checks.
++20 to Str - Lift/Pull checks.
++20 to Str - Jump checks.
++20 to Per - Navigation checks.
++20 to Str - Endurance checks.
+When dealing with heights:
+ +20 to Will - Resist Panic checks.
+2
+Strength
+25
+Perception
+30
+Finished
+2
+Dice Roll
+1
+Strength
+3
+Dice Roll
+1
+Perception
+3
+==============================================+====================================================
+Traceur/Traceuse - (Tier 5)
+A practitioner of parkour, a traceur approaches all hazards and environments as obstacle courses; being able to deftly navigate hazardous terrain with astounding leaps and acrobatics, even going as far as to jump from rooftop to rooftop. A traceur can add +5 per Tier when making checks for 'Str - Climb, Lift/Pull, and Jump' as well as any 'Will - Resist Panic' checks for height. 5th Tier: At this Tier, the traceur may extend the bonus to 'Per - Survival' checks
+10
++1d3 to Strength.
++1d3 to Perception.
++25 to Str - Climb checks.
++25 to Str - Lift/Pull checks.
++25 to Str - Jump checks.
++25 to Per - Navigation checks.
++25 to Str - Endurance checks.
++25 to Per - Survival checks.
+When dealing with heights:
+ +25 to Will - Resist Panic checks.
+2
+Strength
+25
+Perception
+30
+Finished
+2
+Dice Roll
+1
+Strength
+3
+Dice Roll
+1
+Perception
+3
+==================================================================================================
+Trigger Discipline - (Tier 1)
+A trained marksman will also have good trigger discipline so that rounds are not fired off carelessly or dangerously. A character with this skill is able to reduce 'Wasted shots' from weapons that have 'Firing Mode - Semi-Automatic' and 'Firing Mode - Fully Automatic' and excess shots fired due to Panic. The number of Wasted shots reduced is equal to the Tiers in this skill.
+3
++5 to Ranged Attack.
+-1 Wasted Shots.
+See the description for more.
+2
+Perception
+30
+Will
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Trigger Discipline - (Tier 2)
+A trained marksman will also have good trigger discipline so that rounds are not fired off carelessly or dangerously. A character with this skill is able to reduce 'Wasted shots' from weapons that have 'Firing Mode - Semi-Automatic' and 'Firing Mode - Fully Automatic' and excess shots fired due to Panic. The number of Wasted shots reduced is equal to the Tiers in this skill.
+3
++5 to Ranged Attack.
+-2 Wasted Shots.
+See the description for more.
+2
+Perception
+30
+Will
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Trigger Discipline - (Tier 3)
+A trained marksman will also have good trigger discipline so that rounds are not fired off carelessly or dangerously. A character with this skill is able to reduce 'Wasted shots' from weapons that have 'Firing Mode - Semi-Automatic' and 'Firing Mode - Fully Automatic' and excess shots fired due to Panic. The number of Wasted shots reduced is equal to the Tiers in this skill. 3rd Tier: At 3rd Tier, this skill will allow a character to stop firing rounds at a target once the target has been killed, even if the character declared that they would fire more shots in the same turn. The unused rounds are not wasted.
+3
++5 to Ranged Attack.
+-3 Wasted Shots.
+See the description for more.
+2
+Perception
+30
+Will
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Trigger Discipline - (Tier 4)
+A trained marksman will also have good trigger discipline so that rounds are not fired off carelessly or dangerously. A character with this skill is able to reduce 'Wasted shots' from weapons that have 'Firing Mode - Semi-Automatic' and 'Firing Mode - Fully Automatic' and excess shots fired due to Panic. The number of Wasted shots reduced is equal to the Tiers in this skill. 3rd Tier: At 3rd Tier, this skill will allow a character to stop firing rounds at a target once the target has been killed, even if the character declared that they would fire more shots in the same turn. The unused rounds are not wasted.
+3
++5 to Ranged Attack.
+-4 Wasted Shots.
+See the description for more.
+2
+Perception
+30
+Will
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Trigger Discipline - (Tier 5)
+A trained marksman will also have good trigger discipline so that rounds are not fired off carelessly or dangerously. A character with this skill is able to reduce 'Wasted shots' from weapons that have 'Firing Mode - Semi-Automatic' and 'Firing Mode - Fully Automatic' and excess shots fired due to Panic. The number of Wasted shots reduced is equal to the Tiers in this skill. 3rd Tier: At 3rd Tier, this skill will allow a character to stop firing rounds at a target once the target has been killed, even if the character declared that they would fire more shots in the same turn. The unused rounds are not wasted. 5th Tier: At 5th Tier, this skill will have the advantages of the above mentioned bonus at 3rd Tier, but will have the option of choosing a different target to fire their remaining shots at for that turn.
+3
++5 to Ranged Attack.
+-5 Wasted Shots.
+See the description for more.
+2
+Perception
+30
+Will
+30
+Finished
+1
+Ranged Attack
+5
+==================================================================================================
+Warlord - (Tier 1)
+A warlord is someone that is so depraved, so hateful and full of rage that their general anger infects those around them, and brings them to super human levels of bloodthirsty behavior that is borderline suicidal. This person leads by example by fearlessly (and foolishly at times) charging headlong into conflict with reckless disregard for personal safety. Characters like these are typically those who have lost everything and want nothing more than to die taking down as many zombies as they can. If the character with this skill leads a formation that involves melee fighting, then for all melee attacks, all those in formation gain +15 to their Attack. If the character with this skill dies, then the formation is automatically broken and all in formation must make a Willpower check to resist Panic. All characters in this formation can automatically go 'Death or Glory' if the player desires as opposed to at a GM's discretion. The character also gets a +25 Empathy bonus when making 'Emp - Diplomacy (Intimidation)' checks.
+2
++25 to Emp - Diplomacy (Intimidation) checks.
+See the description for more.
+3
+Strength
+35
+Will
+30
+EmpathyLess
+30
+Finished
+0
+==================================================================================================
+Weapon Tinker - (Tier 3)
+Someone who tinkers constantly with weapons is able to make them deal more damage, but the tradeoff is that their modifications often weaken what they work on. Driving railroad spikes through a baseball bat is an example of tinkering with basic weaponry. A character with this skill is able to modify melee weapons with a greater chance of success. All equipment manufacture missions have an increased chance of success of +15% when modifying a weapon after a character has had 'Weapon Familiarity' skill at least three times (so, having killed 30 total zombies with the weapon).
+2
+If the character has gotten 30 ZKs with a weapon:
+ +15 to modifying that weapon.
+1
+Perception
+30
+Finished
+0 
+==================================================================================================
+Woodsman - (Tier 3)
+You are probably no lumberjack, but extensive use of an axe and a strong arm can make up for it. A character with this skill can get a bonus of +10 to their Melee Attack when using any axe type weapon. Also, hatchets can be used 'defensively' if a character has this skill.
+4
++5 to Melee Attack.
+When using any axe type weapon:
+ +10 to Melee Attack.
+Hatchets can be used defensively.
+2
+Strength
+30
+Perception
+20
+Finished
+1
+Melee Attack
+5
+==================================================================================================

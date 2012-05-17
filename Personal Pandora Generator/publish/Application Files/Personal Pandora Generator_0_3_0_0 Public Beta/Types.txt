@@ -1,0 +1,57 @@
+﻿Child
+Children provide an interesting alternative to other character types. A child character will typically have an above average Empathy and Perception but a much lower than average Strength. For this reason, a player only has 90 Stat points to distribute to child characters and will always have Size: 0 to represent their small size and lack of ability to defend themselves against larger attackers.
+7
++10 to all Per - Hide/Sneak checks.
++10 to all Empathy checks.
+Size: 0.
+Free Security Blanket at creation.
+-2 Tiers of Skills.
+Only allows for skills with 1 Tier.
+-30 Stat Points.
+4
+Empathy
+10
+Tier
+-2
+TotalStatPoints
+-30
+Tier Limit
+1
+==========================================================================================================
+Civilian
+Most people take jobs in the civilian sector. Any profession not listed counts as a basic Civilian.
+4
++1 Tiers of skills.
+Only allows for skills with Tier 4 and lower.
+Can forgo the bonus tier for certain Craftsman
+(handyman) type traits.
+3
+Tier
+1
+Tier Limit
+4
+SwitchTierForTraits
+==========================================================================================================
+Military
+People who work for the government in the police, military or penal sector will have had extensive weapons training and are trained to operate under high stress conditions where they take and follow orders through a strict chain of command. As a result, their abilities are of considerable use in the event of an outbreak. A (noble) disadvantage to these professions are that they are very duty bound and will be reluctant to abandon their posts to save themselves (or loved ones) unless it is abundantly clear that nothing that they can do will halt or even slow the chaos that comes with a zombie outbreak.
+10
+Minimum Attack of 25.
++25 to Emp - Diplomacy checks.
++15 to Will Bonus.
+Without restrictions of specialty & rarity:
+ 3 CU worth of equipment.
+Has the Trigger Discipline skill at Tier 1 for free.
+Can select one of the following free bonus skills:
+ Marksman, Sniper, Combat Medic, Gunslinger, 
+ Fast Shot, Martial Artist, Leadership, Tactician,
+ Calm, or Navigator.
+ 3
+ WillBonus
+ 15
+ MinAttack
+ 25
+ FreeSkill
+ Trigger Discipline - (Tier 1)
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================

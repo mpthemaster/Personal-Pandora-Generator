@@ -104,6 +104,7 @@
             this.txtNewPossibility.Name = "txtNewPossibility";
             this.txtNewPossibility.Size = new System.Drawing.Size(213, 20);
             this.txtNewPossibility.TabIndex = 23;
+            this.txtNewPossibility.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNewPossibility_KeyPress);
             // 
             // btnAddPossibility
             // 
@@ -169,7 +170,11 @@
             this.Controls.Add(this.radSkills);
             this.Controls.Add(this.radPersonality);
             this.Controls.Add(this.radLikes);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmCharCreateToolMod";
+            this.ShowIcon = false;
             this.Text = "Character Creation Mod Tool";
             this.ResumeLayout(false);
             this.PerformLayout();

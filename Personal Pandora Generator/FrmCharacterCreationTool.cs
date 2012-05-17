@@ -189,7 +189,7 @@ namespace RandChar
                 numAmountGenerated.Enabled = true;
         }
 
-        
+        //Allows the user to add possibilities and saves them to their textfiles.
         private void btnMOD_Click(object sender, EventArgs e)
         {
             FrmCharCreateToolMod modTool = new FrmCharCreateToolMod();
@@ -207,6 +207,7 @@ namespace RandChar
             }
         }
 
+        //Writes the user's new possibilities to text files.
         private void WritingLines(string fileName, string[] possibilities)
         {
             using (StreamWriter writer = new StreamWriter("../../" + fileName + ".txt", true))

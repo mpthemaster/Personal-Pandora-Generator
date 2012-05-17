@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Personal Pandora Generator")]
 [assembly: AssemblyDescription("Aids in the creation of characters.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Teenside Films Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RandChar")]
-[assembly: AssemblyCopyright("Teenside Films Inc. (2011)")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
