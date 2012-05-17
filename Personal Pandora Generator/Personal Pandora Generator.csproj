@@ -98,6 +98,12 @@
     <Compile Include="FrmCharacterCreator.Designer.cs">
       <DependentUpon>FrmCharacterCreator.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCharCreateToolMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCharCreateToolMod.Designer.cs">
+      <DependentUpon>FrmCharCreateToolMod.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPersonalPandoraGenerator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCharacterCreator.resx">
       <DependentUpon>FrmCharacterCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCharCreateToolMod.resx">
+      <DependentUpon>FrmCharCreateToolMod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonalPandoraGenerator.resx">
       <DependentUpon>FrmPersonalPandoraGenerator.cs</DependentUpon>
@@ -206,6 +215,12 @@
     <Content Include="Types.txt" />
     <None Include="Resources\background1.jpg" />
     <None Include="Resources\TitlePage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileStringComparison\FileStringComparison.csproj">
+      <Project>{69308399-85E8-4CD8-AC44-E1A0224D1B5C}</Project>
+      <Name>FileStringComparison</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

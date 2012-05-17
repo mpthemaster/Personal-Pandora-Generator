@@ -46,6 +46,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtAgeResult = new System.Windows.Forms.TextBox();
             this.radMottos = new System.Windows.Forms.RadioButton();
+            this.btnMOD = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAmountGenerated)).BeginInit();
             this.panel1.SuspendLayout();
@@ -119,9 +121,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(718, 316);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 9);
+            this.label2.Size = new System.Drawing.Size(38, 9);
             this.label2.TabIndex = 6;
-            this.label2.Text = "V. 0.3";
+            this.label2.Text = "V. 0.3.1";
             // 
             // groupBox1
             // 
@@ -250,11 +252,34 @@
             this.radMottos.UseVisualStyleBackColor = true;
             this.radMottos.CheckedChanged += new System.EventHandler(this.mottosRadio_CheckedChanged);
             // 
+            // btnMOD
+            // 
+            this.btnMOD.Location = new System.Drawing.Point(677, 118);
+            this.btnMOD.Name = "btnMOD";
+            this.btnMOD.Size = new System.Drawing.Size(75, 40);
+            this.btnMOD.TabIndex = 18;
+            this.btnMOD.Text = "Add Possibilities";
+            this.btnMOD.UseVisualStyleBackColor = true;
+            this.btnMOD.Click += new System.EventHandler(this.btnMOD_Click);
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.Red;
+            this.label5.ForeColor = System.Drawing.Color.Yellow;
+            this.label5.Location = new System.Drawing.Point(550, 118);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(121, 40);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Try the new MOD tool:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FrmCharacterCreationTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 334);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnMOD);
             this.Controls.Add(this.radMottos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
@@ -303,6 +328,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtAgeResult;
         private System.Windows.Forms.RadioButton radMottos;
+        private System.Windows.Forms.Button btnMOD;
+        private System.Windows.Forms.Label label5;
     }
 }
 

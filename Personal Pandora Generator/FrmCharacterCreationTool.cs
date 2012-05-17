@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Windows.Forms;
 using System.IO;
 
@@ -188,6 +187,31 @@ namespace RandChar
                 numAmountGenerated.Enabled = false;
             else
                 numAmountGenerated.Enabled = true;
+        }
+
+        
+        private void btnMOD_Click(object sender, EventArgs e)
+        {
+            FrmCharCreateToolMod modTool = new FrmCharCreateToolMod();
+
+            if (modTool.ShowDialog() == DialogResult.OK)
+            {
+                if (modTool.likes != null)
+                    WritingLines("likes", modTool.likes);
+                if (modTool.mottos != null)
+                    WritingLines("mottos", modTool.mottos);
+                if (modTool.skills != null)
+                    WritingLines("skillsTool", modTool.skills);
+                if (modTool.traits != null)
+                    WritingLines("traits", modTool.traits);
+            }
+        }
+
+        private void WritingLines(string fileName, string[] possibilities)
+        {
+            using (StreamWriter writer = new StreamWriter("../../" + fileName + ".txt", true))
+                for (int i = 0; i < possibilities.Length; i++)
+                    writer.Write("\r\n" + possibilities[i]);
         }
     }
 }
